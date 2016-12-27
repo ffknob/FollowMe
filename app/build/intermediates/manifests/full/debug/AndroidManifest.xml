@@ -46,6 +46,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="br.org.knob.followme.activity.FollowMeSettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName="br.org.knob.followme.activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

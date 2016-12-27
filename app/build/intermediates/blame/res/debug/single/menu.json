@@ -6,5 +6,9 @@
     {
         "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\settings.xml",
+        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\menu\\settings.xml"
     }
 ]

@@ -15,7 +15,6 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -36,7 +35,7 @@ import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
 import br.org.knob.followme.service.FollowMeIntentService;
 import br.org.knob.followme.service.LocationService;
-import br.org.knob.followme.settings.Settings;
+import br.org.knob.followme.settings.FollowMeSettings;
 
 public class MainActivity
         extends BaseActivity
@@ -99,8 +98,9 @@ public class MainActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Database
-        //this.deleteDatabase(Settings.DATABASE_NAME);
-        DatabaseHelper dbHelper = new DatabaseHelper(this, Settings.DATABASE_NAME, Settings.DATABASE_VERSION) {
+        //this.deleteDatabase(FollowMeSettings.DATABASE_NAME);
+        // TODO: get from settings
+        DatabaseHelper dbHelper = new DatabaseHelper(this, FollowMeSettings.DEFAULT_DATABASE_NAME, FollowMeSettings.DEFAULT_DATABASE_VERSION) {
             @Override
             public void onCreate(SQLiteDatabase db) {
                 db.execSQL("create table if not exists locations (_id integer primary key autoincrement, date text not null, latitude text not null, longitude text not null);");
@@ -152,6 +152,7 @@ public class MainActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
             return true;
         }
 
@@ -176,6 +177,8 @@ public class MainActivity
 
         } else if (id == R.id.nav_send) {
 
+        } else if (id == R.id.nav_settings) {
+            startActivity(new Intent(this, FollowMeSettingsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

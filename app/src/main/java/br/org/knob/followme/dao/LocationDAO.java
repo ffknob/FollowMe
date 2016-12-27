@@ -5,7 +5,7 @@ import android.content.Context;
 import br.org.knob.android.framework.dao.GenericDAO;
 import br.org.knob.android.framework.database.DatabaseHelper;
 import br.org.knob.followme.model.Location;
-import br.org.knob.followme.settings.Settings;
+import br.org.knob.followme.settings.FollowMeSettings;
 
 
 public class LocationDAO extends GenericDAO<Location> {
@@ -15,7 +15,8 @@ public class LocationDAO extends GenericDAO<Location> {
 
     public LocationDAO(Context context) {
         super(Location.class);
-        dbHelper = new DatabaseHelper(context,  Settings.DATABASE_NAME, Settings.DATABASE_VERSION);
+        // TODO: get from settings
+        dbHelper = new DatabaseHelper(context,  FollowMeSettings.DEFAULT_DATABASE_NAME, FollowMeSettings.DEFAULT_DATABASE_VERSION);
     }
 
     @Override

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Knob Android Framework</string>
+    <string name="kaf_settings_error_resource_not_found">Could not find or use settings resource file</string>
+    <string name="kaf_settings_is_online">Online</string>
+    <string name="kaf_settings_is_online_desc">The app will be used connected to a network so it could retrieve and send data from/to central repository</string>
+    <string name="kaf_settings_log_events">Log</string>
+    <string name="kaf_settings_log_events_desc">The app should log events that could help debugging issues</string>
 </resources>

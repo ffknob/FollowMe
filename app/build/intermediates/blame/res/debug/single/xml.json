@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\xml\\kaf_settings.xml",
+        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\xml\\kaf_settings.xml"
+    },
+    {
+        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\xml\\followme_settings.xml",
+        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\xml\\followme_settings.xml"
+    }
+]

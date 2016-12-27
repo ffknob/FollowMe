@@ -2,15 +2,12 @@ package br.org.knob.followme.service;
 
 import android.app.IntentService;
 import android.content.Intent;
-import android.widget.TextView;
 
-import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import br.org.knob.followme.R;
 import br.org.knob.followme.model.Location;
-import br.org.knob.followme.settings.Settings;
+import br.org.knob.followme.settings.FollowMeSettings;
 
 public class FollowMeIntentService extends IntentService {
     public static final String TAG = "FollowMeIntentService";
@@ -36,6 +33,6 @@ public class FollowMeIntentService extends IntentService {
                     locationService.save(location);
                 }
             }
-        }, Settings.SERVICE_GET_LOCATION_INTERVAL);
+        }, FollowMeSettings.DEFAULT_GET_LOCATION_INTERVAL); // TODO: get from settings
     }
 }

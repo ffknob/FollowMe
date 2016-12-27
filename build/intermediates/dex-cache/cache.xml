@@ -48,21 +48,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Flávio Knob\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_67afc869d0fec24f745d251bb5b3357ca82bd5b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="0a995ebb3fa3bb85b166b5c51e97e109a5cd60b3">
+        sha1="2c80c6a3de473a3ded747c5eb769df8526fcca63">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_25d1425d4768551e0ddbe82a4e53c8cbae7e2221\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ffknob\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_b1f7ecb4d61e63a95c0bd40e940b25248900fff6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_c35287af431a9bdc0aa3127774acce501c6c86e6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c8d81d32ecc0aa05ee2fab175b49f74c8b8da06d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_c35287af431a9bdc0aa3127774acce501c6c86e6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,12 +138,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Flávio Knob\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jar="C:\Users\ffknob\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-simplexml\2.1.0\a71c37fa341165df2c61ba93f549c4ceeb98d6c8\converter-simplexml-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_6b940c36c25b07d32361d651c53fde62e7bf12a4\classes.dex" />
+        sha1="a71c37fa341165df2c61ba93f549c4ceeb98d6c8">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-simplexml-2.1.0_d54eec18ddb8c66858418222836e8a64cdc58fb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ffknob\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_549b2cc259b20a1a92a8c01aa7d26b363a57a487\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -153,15 +162,6 @@
         revision="25.0.1"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_7247788d09dcee806e8ae6ff48da2eeed2cdbc39\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Flávio Knob\.gradle\caches\modules-2\files-2.1\org.simpleframework\simple-xml\2.7.1\dd91fb744c2ff921407475cb29a1e3fee397d411\simple-xml-2.7.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\simple-xml-2.7.1_77249d8833e487fe07aad4c5110cb0567fab415a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="352af27ed5ab4838afe100b98b4468855d96b6f2">
+        sha1="ffd38af1409ca2f86ab005f7f72b22cd93246263">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_1cf55b3aa0895ba25abe4c020a4b1ffa813f3cb5\classes.dex" />
     </item>
     <item
@@ -189,15 +189,6 @@
         revision="25.0.1"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_52765cb2ce08668a46342cd7103236dbb7e29519\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Desenvolvimento\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_c21dd06d20642fd31835ae4fc6aebed6ba95696b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -219,12 +210,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Flávio Knob\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-simplexml\2.1.0\a71c37fa341165df2c61ba93f549c4ceeb98d6c8\converter-simplexml-2.1.0.jar"
+        jar="C:\Users\ffknob\.gradle\caches\modules-2\files-2.1\org.simpleframework\simple-xml\2.7.1\dd91fb744c2ff921407475cb29a1e3fee397d411\simple-xml-2.7.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="a71c37fa341165df2c61ba93f549c4ceeb98d6c8">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-simplexml-2.1.0_25bbe129ec560bd837135ccbd6d6a7b4b6ddae31\classes.dex" />
+        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\simple-xml-2.7.1_aabd17ac6ee866e035e8b04ce36b21ab66754f80\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,6 +228,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\ffknob\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_9b58f35c65b081bbb201a8feb1361347bee2f525\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -246,12 +246,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Flávio Knob\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jar="C:\Users\ffknob\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_0aa447252c7339d9702d837366ce9dacb6e911d6\classes.dex" />
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_cd04ff5fb969164739d185710b530d275e51bd8c\classes.dex" />
     </item>
     <item
         is-multidex="true"

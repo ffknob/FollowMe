@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="followme_settings_"
+        android:title="@string/followme_settings_get_location_interval"
+        android:summary="@string/followme_settings_get_location_interval_desc"
+        android:dialogMessage="@string/followme_settings_get_location_interval_dialog"/>
+
+</PreferenceScreen>

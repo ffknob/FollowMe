@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml
@@ -42,7 +42,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.3.0] D:\Desenvolvimento
 	android:required
 		ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:10:52-75
 application
-ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:12:5-39:19
+ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:12:5-46:19
 MERGED from [br.org.knob.android:framework:0.0.1] D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\br.org.knob.android\framework\0.0.1\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:design:24.2.1] D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.1] D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
@@ -102,6 +102,16 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
 		ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:36:27-74
+activity#br.org.knob.followme.activity.FollowMeSettingsActivity
+ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:40:9-45:20
+	android:label
+		ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:42:13-45
+	android:parentActivityName
+		ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:44:13-64
+	android:theme
+		ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml:41:13-62
 uses-sdk
 INJECTED from D:\Desenvolvimento\workspace\FollowMe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [br.org.knob.android:framework:0.0.1] D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\br.org.knob.android\framework\0.0.1\AndroidManifest.xml:7:5-9:41
