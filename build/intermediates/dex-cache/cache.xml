@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="4bb60ec62685fa0a1235f043b233d5af3874cc68">
+        sha1="889aaf2419734fe9fef9ae311ad05aa098481857">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0768a80ae884b00cdb8e19b167beb2c3a5418405\classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="2c80c6a3de473a3ded747c5eb769df8526fcca63">
+        sha1="e071ae36cced238b3dcac40e21ef2cfb2d5e30e4">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_25d1425d4768551e0ddbe82a4e53c8cbae7e2221\classes.dex" />
     </item>
     <item
@@ -102,21 +102,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c8d81d32ecc0aa05ee2fab175b49f74c8b8da06d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_c35287af431a9bdc0aa3127774acce501c6c86e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c8d81d32ecc0aa05ee2fab175b49f74c8b8da06d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="ffd38af1409ca2f86ab005f7f72b22cd93246263">
+        sha1="cc185ad2909cdce63574e35c93f1dc60bf779943">
         <dex dex="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_1cf55b3aa0895ba25abe4c020a4b1ffa813f3cb5\classes.dex" />
     </item>
     <item

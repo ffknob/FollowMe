@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -30,12 +31,16 @@ import com.google.android.gms.maps.model.LatLng;
 import java.util.Date;
 
 import br.org.knob.android.framework.activity.BaseActivity;
+import br.org.knob.android.framework.adapter.KafSettingsAdapter;
 import br.org.knob.android.framework.database.DatabaseHelper;
+import br.org.knob.android.framework.service.SettingsService;
+import br.org.knob.android.framework.settings.KafSettings;
 import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
+import br.org.knob.followme.adapter.SettingsAdapter;
 import br.org.knob.followme.service.FollowMeIntentService;
 import br.org.knob.followme.service.LocationService;
-import br.org.knob.followme.settings.FollowMeSettings;
+import br.org.knob.followme.settings.Settings;
 
 public class MainActivity
         extends BaseActivity
@@ -52,15 +57,34 @@ public class MainActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        // TODO: take this to the framework package
+        // Framework settings
+        KafSettings kafSettings = KafSettings.getInstance();
+        SettingsService kafSettingsService = new SettingsService(this, new KafSettingsAdapter());
+        if(!kafSettingsService.isInitialized()) {
+            kafSettings.initialize();
+            kafSettingsService.commitToSharedPreferences();
+        }
+
+        // APP Settings
+        Settings settings = Settings.getInstance(); // Get instance to initialize settings if user still doesn't have shared preferences for app
+        SettingsService settingsService = new SettingsService(this, new SettingsAdapter());
+
+        // Check if app settings have already been initialized
+        if(!settingsService.isInitialized()) {
+            // If not, do it now
+            settings.initialize();
+            settingsService.commitToSharedPreferences();
+        }
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_get_last_know_location);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                //        .setAction("Action", null).show();
 
                 // Last know location
                 lastKnownLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
@@ -79,16 +103,10 @@ public class MainActivity
 
                 String info = "Locations: " + locationService.count(); //Last know location: (" + location.getLatitude() + ", " + location.getLongitude() + ")";
                 Snackbar.make(view, info, Snackbar.LENGTH_LONG).setAction("Action", null).show();
-
-                // TODO: remove fragment
-                /*getSupportFragmentManager()
-                        .beginTransaction()
-                        .remove(mapFragment)
-                        .commit();*/
             }
         });
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.nav_drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
@@ -98,9 +116,9 @@ public class MainActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Database
-        //this.deleteDatabase(FollowMeSettings.DATABASE_NAME);
+        //this.deleteDatabase(Settings.DATABASE_NAME);
         // TODO: get from settings
-        DatabaseHelper dbHelper = new DatabaseHelper(this, FollowMeSettings.DEFAULT_DATABASE_NAME, FollowMeSettings.DEFAULT_DATABASE_VERSION) {
+        DatabaseHelper dbHelper = new DatabaseHelper(this, Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION) {
             @Override
             public void onCreate(SQLiteDatabase db) {
                 db.execSQL("create table if not exists locations (_id integer primary key autoincrement, date text not null, latitude text not null, longitude text not null);");
@@ -128,7 +146,7 @@ public class MainActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.nav_drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -145,14 +163,11 @@ public class MainActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-
+        if (id == R.id.activity_main_action_find) {
+            return true;
+        } else if (id == R.id.activity_main_action_refresh) {
             return true;
         }
 
@@ -167,21 +182,15 @@ public class MainActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        }  else if (id == R.id.nav_drawer_share) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_drawer_about) {
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        } else if (id == R.id.nav_settings) {
-            startActivity(new Intent(this, FollowMeSettingsActivity.class));
+        } else if (id == R.id.nav_drawer_settings) {
+            startActivity(new Intent(this, SettingsActivity.class));
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.nav_drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
