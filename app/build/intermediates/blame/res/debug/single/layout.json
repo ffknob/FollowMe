@@ -40,6 +40,10 @@
         "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\layout\\fragment_history.xml"
     },
     {
+        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_number_picker_dialog.xml",
+        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\layout\\preference_number_picker_dialog.xml"
+    },
+    {
         "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },

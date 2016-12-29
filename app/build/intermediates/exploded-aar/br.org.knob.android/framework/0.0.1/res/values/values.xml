@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="NumberPickerPreference"><attr format="integer" name="minValue"/><attr format="integer" name="maxValue"/><attr format="string" name="minExternal"/><attr format="string" name="maxExternal"/></declare-styleable>
     <string name="app_name">Knob Android Framework</string>
+    <string name="kaf_namespace">http://schemas.android.com/apk/res/br.org.knob.android.framework</string>
     <string name="kaf_settings_error_resource_not_found">Could not find or use settings resource file</string>
     <string name="kaf_settings_is_online">Online</string>
     <string name="kaf_settings_is_online_desc">The app will be used connected to a network so it could retrieve and send data from/to central repository</string>

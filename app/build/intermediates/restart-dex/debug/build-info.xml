@@ -5,52 +5,45 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="30194515660976"
+    timestamp="24369364787191"
     token="-7020003512405790749"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="4910" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="148" />
+        duration="1" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
+    <artifact
+        location="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
     <artifact
         location="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_1cf55b3aa0895ba25abe4c020a4b1ffa813f3cb5\classes.dex"
         type="DEX" />
-    <artifact
-        location="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
 
     <build
-        timestamp="28598866964732"
+        timestamp="21485477407600"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Desenvolvimento\workspace\FollowMe\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="28863599588743"
+        timestamp="24369364787191"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="30194515660976"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
         <artifact
             location="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_1cf55b3aa0895ba25abe4c020a4b1ffa813f3cb5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="D:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
     </build>
 

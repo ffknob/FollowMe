@@ -5,17 +5,16 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -31,10 +30,9 @@ import com.google.android.gms.maps.model.LatLng;
 import java.util.Date;
 
 import br.org.knob.android.framework.activity.BaseActivity;
-import br.org.knob.android.framework.adapter.KafSettingsAdapter;
 import br.org.knob.android.framework.database.DatabaseHelper;
+import br.org.knob.android.framework.manager.KafManager;
 import br.org.knob.android.framework.service.SettingsService;
-import br.org.knob.android.framework.settings.KafSettings;
 import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
 import br.org.knob.followme.adapter.SettingsAdapter;
@@ -61,14 +59,9 @@ public class MainActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // TODO: take this to the framework package
-        // Framework settings
-        KafSettings kafSettings = KafSettings.getInstance();
-        SettingsService kafSettingsService = new SettingsService(this, new KafSettingsAdapter());
-        if(!kafSettingsService.isInitialized()) {
-            kafSettings.initialize();
-            kafSettingsService.commitToSharedPreferences();
-        }
+        // Initialize framework
+        KafManager kafManager = KafManager.getInstance(this);
+        kafManager.initialize();
 
         // APP Settings
         Settings settings = Settings.getInstance(); // Get instance to initialize settings if user still doesn't have shared preferences for app

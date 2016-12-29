@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/br.org.knob.android.framework">
 
-    <EditTextPreference
+    <br.org.knob.android.framework.preference.NumberPickerPreference
         android:key="followme_settings_get_location_interval"
         android:title="@string/followme_settings_get_location_interval"
         android:summary="@string/followme_settings_get_location_interval_desc"
@@ -9,6 +11,8 @@
         android:inputType="number"
         android:maxWidth="@dimen/small_form_field_width"
         android:numeric="integer"
-        android:defaultValue="1"/>
+        android:defaultValue="5"
+        app:minValue="1"
+        app:maxValue="60" />
 
 </PreferenceScreen>
