@@ -6,7 +6,6 @@ import android.content.Intent;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import br.org.knob.android.framework.model.Setting;
 import br.org.knob.followme.model.Location;
 import br.org.knob.followme.settings.Settings;
 

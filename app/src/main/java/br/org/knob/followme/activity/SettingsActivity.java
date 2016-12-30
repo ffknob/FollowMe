@@ -7,10 +7,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import br.org.knob.android.framework.settings.AbstractSettings;
-import br.org.knob.followme.R;
 import br.org.knob.android.framework.activity.BaseActivity;
 import br.org.knob.android.framework.fragment.SettingsFragment;
+import br.org.knob.android.framework.settings.AbstractSettings;
+import br.org.knob.followme.R;
 
 public class SettingsActivity extends BaseActivity {
     protected static final String TAG = "SettingsActivity";

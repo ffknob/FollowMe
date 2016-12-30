@@ -8,7 +8,19 @@
         "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\settings.xml",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\menu\\settings.xml"
+    },
+    {
         "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\settings.xml",
         "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\menu\\settings.xml"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     }
 ]

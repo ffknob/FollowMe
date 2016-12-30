@@ -4,7 +4,6 @@ package br.org.knob.followme.adapter;
 import android.content.SharedPreferences;
 
 import br.org.knob.android.framework.adapter.AbstractSettingsAdapter;
-import br.org.knob.android.framework.settings.AbstractSettings;
 import br.org.knob.followme.settings.Settings;
 
 public class SettingsAdapter extends AbstractSettingsAdapter {

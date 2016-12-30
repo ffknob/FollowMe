@@ -20,7 +20,7 @@ android {
 }
 
 repositories {
-    maven { url "file://D:/Desenvolvimento/repository" }
+    maven { url "file://C:/Desenvolvimento/repository" }
 }
 
 dependencies {

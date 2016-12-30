@@ -1,6 +1,5 @@
 package br.org.knob.followme.settings;
 
-import br.org.knob.android.framework.model.Setting;
 import br.org.knob.android.framework.settings.AbstractSettings;
 import br.org.knob.followme.R;
 
