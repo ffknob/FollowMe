@@ -12,6 +12,7 @@ public class LocationDAO extends GenericDAO<Location> {
     public static final String TAG = "LocationDAO";
 
     private static final String TABLE_NAME = "locations";
+    private static final String ID_COLUMN_NAME = "_id";
 
     public LocationDAO(Context context) {
         super(Location.class);
@@ -23,4 +24,7 @@ public class LocationDAO extends GenericDAO<Location> {
     public String getTableName() {
         return TABLE_NAME;
     }
+
+    @Override
+    public String getIdColumnName() { return ID_COLUMN_NAME; }
 }

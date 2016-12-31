@@ -4,32 +4,36 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_favorite.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_favorite.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_merge.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_merge.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_not_important.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_not_important.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_switch_video.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_switch_video.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_collapse.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_collapse.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_attachment.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_attachment.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_next.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_next.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_previous_item.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_previous_item.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cut.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cut.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bluetooth.png",
@@ -40,56 +44,48 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_sd_storage.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_accounts.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_accounts.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_upload.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_upload.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cc_bcc.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cc_bcc.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_mic_muted.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_mic_muted.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_download.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_download.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_pause_over_video.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_pause_over_video.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_reply_all.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_reply_all.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_person.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_person.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_stop.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_stop.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_switch_camera.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_switch_camera.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_rewind.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rewind.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_screen_locked_to_landscape.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_screen_locked_to_landscape.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_camera.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_camera.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_on.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_on.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_alarm.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_alarm.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
@@ -100,24 +96,28 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_high.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_split.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_split.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_picture.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_picture.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_rotate_left.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rotate_left.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_warning.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_warning.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_sort_by_size.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_sort_by_size.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_person.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_person.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_brightness_medium.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_medium.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_off.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_off.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cast.png",
@@ -128,28 +128,24 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_read.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_collection.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_collection.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_import_export.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_import_export.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_switch_video.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_switch_video.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_crop.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_crop.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_previous_item.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_pause.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_pause.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
@@ -160,36 +156,32 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_repeat.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_error.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_error.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_labels.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_labels.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_email.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_email.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_video.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_video.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_forward.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_forward.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_shuffle.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_shuffle.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_next.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_next.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_location_searching.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_location_searching.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_return_from_full_screen.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_return_from_full_screen.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_directions.png",
@@ -198,10 +190,6 @@
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_location_off.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_location_off.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_reply.png",
@@ -220,60 +208,32 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_phone.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_back.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_back.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_backspace.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_backspace.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_replay.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_replay.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_screen_rotation.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_screen_rotation.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_send_now.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_send_now.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_go_to_today.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_go_to_today.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_next_item.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_next_item.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_remove.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_remove.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_copy.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_copy.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cloud.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cloud.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_picture.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_picture.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_computer.png",
@@ -284,16 +244,36 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_dial_pad.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_volume_on.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_volume_on.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_stop.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_stop.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_brightness_auto.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_auto.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_storage.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_storage.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_email.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_email.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_save.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_play.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_play.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_send_now.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_send_now.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
@@ -308,16 +288,24 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_headphones.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_headphones.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_camera.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_camera.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_select_all.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_select_all.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_person.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_person.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bightness_low.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bightness_low.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
@@ -332,20 +320,20 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_half_important.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_alarms.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_alarms.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_network_cell.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_network_cell.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_keyboard.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_keyboard.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_event.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_event.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_undo.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_paste.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_paste.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_discard.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_discard.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
@@ -356,28 +344,12 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_warning.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_end_call.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_end_call.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_crop.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_crop.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_expand.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_expand.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_airplane_mode_off.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_airplane_mode_off.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_good.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_good.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_not_secure.png",
@@ -388,36 +360,28 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_attachment.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_view_as_list.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_view_as_list.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_account.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_account.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_data_usage.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_data_usage.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_fast_forward.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_fast_forward.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_attachment.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_attachment.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_account.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_account.png"
     },
     {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_end_call.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_end_call.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_time.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_time.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_reply_all.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_reply_all.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_end_call.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_end_call.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_about.png",
@@ -432,72 +396,80 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_location_searching.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_view_as_list.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_view_as_list.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_email.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_email.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_not_secure.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_not_secure.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_back.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_back.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_view_as_grid.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_view_as_grid.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_full_screen.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_full_screen.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_volume_muted.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_volume_muted.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_make_available_offline.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_make_available_offline.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_alarm.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_alarm.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_on.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_on.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_sd_storage.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_sd_storage.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_network_cell.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_network_cell.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_replay.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_replay.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_copy.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_copy.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_picture.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_picture.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_view_as_grid.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_view_as_grid.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_screen_locked_to_portrait.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_screen_locked_to_portrait.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_network_wifi.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_network_wifi.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_ring_volume.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_ring_volume.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_paste.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_paste.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bluetooth_searching.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bluetooth_searching.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_favorite.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_favorite.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
@@ -512,20 +484,48 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_collection.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_play_over_video.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_play_over_video.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_accept.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_accept.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_group.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_group.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_place.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_place.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_error.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_error.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_airplane_mode_on.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_airplane_mode_on.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_overflow.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_overflow.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_remove.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_remove.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_picture.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_picture.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_automatic.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_automatic.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_volume_on.png",
@@ -536,12 +536,8 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_mouse.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_rotate_left.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rotate_left.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_network_wifi.png",
@@ -552,56 +548,64 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cancel.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_expand.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_expand.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_help.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_help.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_split.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_split.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_headset.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_headset.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_directions.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_directions.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_accounts.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_accounts.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_import_export.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_import_export.png"
     },
     {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_alarms.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_alarms.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_important.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_important.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_video.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_video.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_alarms.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_alarms.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_usb.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_usb.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_edit.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_edit.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_backspace.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_backspace.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_previous.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_previous.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_place.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_place.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_brightness_auto.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_auto.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_chat.png",
@@ -616,6 +620,10 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_gamepad.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_attachment.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_attachment.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_web_site.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_web_site.png"
     },
@@ -624,780 +632,8 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_slideshow.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_slideshow.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_select_all.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_select_all.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bluetooth_connected.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bluetooth_connected.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_map.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_map.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_gamepad.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_gamepad.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bluetooth_connected.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bluetooth_connected.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_about.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_about.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_off.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_off.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_event.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_event.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_slideshow.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_slideshow.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_map.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_map.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_call.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_call.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_dock.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_dock.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cloud.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cloud.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_help.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_help.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_usb.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_usb.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_data_usage.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_data_usage.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_airplane_mode_on.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_airplane_mode_on.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_switch_camera.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_switch_camera.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_automatic.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_automatic.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cancel.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cancel.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_volume_muted.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_volume_muted.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_upload.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_upload.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_settings.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_settings.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_half_important.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_half_important.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bightness_low.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bightness_low.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_merge.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_merge.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_collapse.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_collapse.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cut.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cut.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_chat.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_chat.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_upload.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_upload.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_go_to_today.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_go_to_today.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_download.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_download.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_sort_by_size.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_sort_by_size.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_group.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_group.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_person.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_person.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_rewind.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rewind.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_play.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_play.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_previous.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_previous.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_picture.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_picture.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_not_important.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_not_important.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_rotate_left.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rotate_left.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_dock.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_dock.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_make_available_offline.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_make_available_offline.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_brightness_medium.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_medium.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_off.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_off.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_mouse.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_mouse.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_switch_video.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_switch_video.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_previous_item.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_previous_item.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_pause.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_pause.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_pause.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_pause.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_location_off.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_location_off.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_time.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_time.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cc_bcc.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cc_bcc.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_secure.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_secure.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_video.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_video.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_overflow.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_overflow.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bad.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bad.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_forward.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_forward.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_pause_over_video.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_pause_over_video.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_ring_volume.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_ring_volume.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_return_from_full_screen.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_return_from_full_screen.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_repeat.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_repeat.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_full_screen.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_full_screen.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_screen_rotation.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_screen_rotation.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_go_to_today.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_go_to_today.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_good.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_good.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_storage.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_storage.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_unread.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_unread.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_label.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_label.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_accept.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_accept.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_storage.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_storage.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_undo.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_undo.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_email.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_email.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_save.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_save.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_screen_rotation.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_screen_rotation.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_play.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_play.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_send_now.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_send_now.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_computer.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_computer.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_to_queue.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_to_queue.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_camera.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_camera.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_select_all.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_select_all.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bightness_low.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bightness_low.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_dial_pad.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_dial_pad.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bluetooth.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bluetooth.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_screen_locked_to_portrait.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_screen_locked_to_portrait.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_group.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_group.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_event.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_event.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_paste.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_paste.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_discard.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_discard.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_play_over_video.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_play_over_video.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_labels.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_labels.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_good.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_good.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_screen_locked_to_landscape.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_screen_locked_to_landscape.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_view_as_list.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_view_as_list.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_headset.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_headset.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_location_found.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_location_found.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_time.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_time.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_phone.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_phone.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_back.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_back.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_view_as_grid.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_view_as_grid.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_collapse.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_collapse.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_event.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_event.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_make_available_offline.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_make_available_offline.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_share.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_share.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_alarm.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_alarm.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_network_cell.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_network_cell.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_replay.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_replay.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_reply.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_reply.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_copy.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_copy.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_mic.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_mic.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_save.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_save.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_ring_volume.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_ring_volume.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_favorite.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_favorite.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_call.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_call.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_play_over_video.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_play_over_video.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_accept.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_accept.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_group.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_group.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_place.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_place.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_airplane_mode_on.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_airplane_mode_on.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_overflow.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_overflow.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_rotate_right.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rotate_right.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_flash_automatic.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_flash_automatic.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_download.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_download.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_refresh.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_refresh.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_expand.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_expand.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_brightness_high.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_high.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_help.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_help.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_split.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_split.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_accounts.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_accounts.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_brightness_medium.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_medium.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_important.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_important.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_shuffle.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_shuffle.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_previous.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_previous.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_battery.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_battery.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_event.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_event.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_return_from_full_screen.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_return_from_full_screen.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cut.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cut.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_web_site.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_web_site.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_brightness_auto.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_brightness_auto.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_forward.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_forward.png"
-    },
-    {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_attachment.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_attachment.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_search.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_search.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_person.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_person.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_headphones.png",
@@ -1408,24 +644,24 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rotate_right.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_map.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_map.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_discard.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_discard.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_bluetooth_connected.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_bluetooth_connected.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_event.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_event.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_unread.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_unread.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_slideshow.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_slideshow.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
@@ -1438,10 +674,6 @@
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_group.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_group.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_important.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_important.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_battery.png",
@@ -1460,28 +692,32 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_airplane_mode_off.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_call.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_call.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_settings.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_settings.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new_email.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_new_email.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_dock.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_dock.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cloud.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cloud.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_location_found.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_location_found.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_rewind.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_rewind.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_fast_forward.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_fast_forward.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_mic.png",
@@ -1492,31 +728,35 @@
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_search.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_data_usage.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_data_usage.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_edit.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_edit.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_read.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_read.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_cast.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_cast.png"
     },
     {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_refresh.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_refresh.png"
     },
     {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_switch_camera.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_switch_camera.png"
+    },
+    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_add_to_queue.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_add_to_queue.png"
     },
     {
-        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_next_item.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\br.org.knob.android\\framework\\0.0.1\\res\\drawable-hdpi-v4\\ic_action_next_item.png"
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     }
 ]

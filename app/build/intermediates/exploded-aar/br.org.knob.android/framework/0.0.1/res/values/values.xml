@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="NumberPickerPreference"><attr format="integer" name="minValue"/><attr format="integer" name="maxValue"/><attr format="string" name="minExternal"/><attr format="string" name="maxExternal"/></declare-styleable>
+    <declare-styleable name="NumberPickerWheelPreference"><attr format="integer" name="numberPickerWheelPreference_minValue"/><attr format="integer" name="numberPickerWheelPreference_maxValue"/><attr format="string" name="numberPickerWheelPreference_minExternal"/><attr format="string" name="numberPickerWheelPreference_maxExternal"/><attr format="boolean" name="numberPickerWheelPreference_cycleValues"/></declare-styleable>
+    <declare-styleable name="SeekBarPreference"><attr format="integer" name="seekBarPreference_minValue"/><attr format="integer" name="seekBarPreference_maxValue"/><attr format="integer" name="seekBarPreference_interval"/><attr format="string" name="seekBarPreference_units"/></declare-styleable>
     <string name="app_name">Knob Android Framework</string>
     <string name="kaf_namespace">http://schemas.android.com/apk/res/br.org.knob.android.framework</string>
     <string name="kaf_settings_error_resource_not_found">Could not find or use settings resource file</string>

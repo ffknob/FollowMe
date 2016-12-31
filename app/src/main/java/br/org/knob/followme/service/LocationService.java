@@ -7,6 +7,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -43,6 +44,7 @@ public class LocationService extends GenericService implements GoogleApiClient.C
         return locationDAO.count();
     }
 
+
     public Location getLastKnowLocation() {
         Location location = null;
 
@@ -62,7 +64,20 @@ public class LocationService extends GenericService implements GoogleApiClient.C
             mGoogleApiClient.disconnect();
         }
 
+        if(location == null) {
+            // Couldn't get last know location from GPS, will try to get it from saved locations
+            location = locationDAO.findLast(locationDAO.getIdColumnName());
+        }
+
         return location;
+    }
+
+    public List<Location> findAllOrderedByDate() {
+        // TODO: Limit somehow... we don't want to retrieve all saved locations
+        locations = locationDAO.findAll();
+        Collections.sort(locations, new Location.DateDescComparator());
+
+        return locations;
     }
 
     @Override

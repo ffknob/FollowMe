@@ -8,6 +8,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!-- Nav Drawer -->
+    <string name="nav_drawer_item_map">Map</string>
+    <string name="nav_drawer_item_history">History</string>
     <string name="nav_drawer_item_settings">Settings</string>
     <string name="nav_drawer_item_share">Share</string>
     <string name="nav_drawer_item_about">About</string>
@@ -19,6 +21,7 @@
     <string name="followme_settings_get_location_interval">Get location interval</string>
     <string name="followme_settings_get_location_interval_desc">Interval to get last know GPS location</string>
     <string name="followme_settings_get_location_interval_dialog">Interval (in minutes)</string>
+    <string name="get_location_interval_seekbar_units">min</string>
 
     <!-- Action bar actions -->
     <string name="find">Find</string>

@@ -8,11 +8,6 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <!-- <include
-        layout="@layout/activity_main_content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" /> -->
-
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
@@ -42,20 +37,10 @@
 
         </android.support.design.widget.AppBarLayout>
 
-        <RelativeLayout
+        <FrameLayout
+            android:id="@+id/fragment_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            tools:context="br.org.knob.followme.activity.MainActivity">
-
-            <fragment
-                android:id="@+id/fragment_main_map"
-                class="br.org.knob.followme.fragment.MapFragment"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:elevation="0dp" />
-
-        </RelativeLayout>
+            android:layout_height="match_parent"/>
 
     </android.support.design.widget.CoordinatorLayout>
 

@@ -1,11 +1,9 @@
 package br.org.knob.followme.fragment;
 
 import android.graphics.Color;
-import android.location.Location;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +25,7 @@ import br.org.knob.android.framework.fragment.BaseFragment;
 import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
 import br.org.knob.followme.service.LocationService;
+import br.org.knob.followme.model.Location;
 
 public class MapFragment extends BaseFragment
         implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
@@ -36,11 +35,11 @@ public class MapFragment extends BaseFragment
     private GoogleApiClient mGoogleApiClient;
     private GoogleMap map;
 
-    private Location lastKnownLocation;
+    private android.location.Location lastKnownLocation;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_main_map, container, false);
+        return inflater.inflate(R.layout.fragment_map, container, false);
     }
 
     @Override
@@ -55,16 +54,17 @@ public class MapFragment extends BaseFragment
                 lastKnownLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
                 Util.log(TAG, "Last know location: " + lastKnownLocation.toString());
 
-                setMapLocation(lastKnownLocation);
-
                 // Save to database
-                br.org.knob.followme.model.Location location = new br.org.knob.followme.model.Location(
+                Location location = new br.org.knob.followme.model.Location(
                         new Date(),
                         String.valueOf(lastKnownLocation.getLatitude()),
                         String.valueOf(lastKnownLocation.getLongitude()));
 
                 LocationService locationService = new LocationService(getContext());
                 locationService.save(location);
+
+                // Send map to that location
+                setMapLocation(location);
 
                 String info = "Locations: " + locationService.count(); //Last know location: (" + location.getLatitude() + ", " + location.getLongitude() + ")";
                 Snackbar.make(view, info, Snackbar.LENGTH_LONG).setAction("Action", null).show();
@@ -83,11 +83,22 @@ public class MapFragment extends BaseFragment
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
+        Location location = null;
+        Bundle bundle = getArguments();
+        if(bundle != null) {
+            location = (Location) bundle.getSerializable("location");
+        }
+
         // Map fragment
         mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.fragment_map);
         if (mapFragment == null) {
             mapFragment = SupportMapFragment.newInstance();
             getChildFragmentManager().beginTransaction().replace(R.id.fragment_map, mapFragment).commit();
+        }
+
+        if(location != null) {
+            // I have a location, let's go there
+            setMapLocation(location);
         }
     }
 
@@ -134,12 +145,16 @@ public class MapFragment extends BaseFragment
     }
 
     private void setMapLocation(Location location) {
-        if (map != null && location != null) {
-            LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
+        android.location.Location androidLocation = new android.location.Location(""); // Provider is not necessary
+        androidLocation.setLatitude(new Double(location.getLatitude()));
+        androidLocation.setLongitude(new Double(location.getLongitude()));
+
+        if (map != null && androidLocation != null) {
+            LatLng latLng = new LatLng(androidLocation.getLatitude(), androidLocation.getLongitude());
             CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latLng, 15);
             map.animateCamera(update);
 
-            Util.log(TAG, "Set map location: " + location.toString());
+            Util.log(TAG, "Set map location: " + androidLocation.toString());
 
             CircleOptions circle = new CircleOptions().center(latLng);
             circle.fillColor(Color.MAGENTA);

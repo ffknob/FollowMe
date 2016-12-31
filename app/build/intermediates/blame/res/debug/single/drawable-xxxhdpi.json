@@ -1,13 +1,5 @@
 [
     {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
-    },
-    {
-        "merged": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_dark.png",
-        "source": "D:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-xxxhdpi\\powered_by_google_dark.png"
-    },
-    {
         "merged": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
         "source": "C:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
     },

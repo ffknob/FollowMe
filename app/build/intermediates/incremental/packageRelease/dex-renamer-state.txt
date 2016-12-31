@@ -1,4 +1,0 @@
-#Fri Dec 30 14:49:51 BRST 2016
-base.0=C\:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <br.org.knob.android.framework.preference.NumberPickerPreference
+    <br.org.knob.android.framework.preference.NumberPickerWheelPreference
         android:key="followme_settings_get_location_interval"
         android:title="@string/followme_settings_get_location_interval"
         android:summary="@string/followme_settings_get_location_interval_desc"
@@ -12,7 +12,21 @@
         android:maxWidth="@dimen/small_form_field_width"
         android:numeric="integer"
         android:defaultValue="5"
-        app:minValue="1"
-        app:maxValue="60" />
+        app:numberPickerWheelPreference_minValue="1"
+        app:numberPickerWheelPreference_maxValue="60" />
+
+    <br.org.knob.android.framework.preference.SeekBarPreference
+        android:key="followme_settings_get_location_interval_1"
+        android:title="@string/followme_settings_get_location_interval"
+        android:summary="@string/followme_settings_get_location_interval_desc"
+        android:dialogMessage="@string/followme_settings_get_location_interval_dialog"
+        android:inputType="number"
+        android:maxWidth="@dimen/small_form_field_width"
+        android:numeric="integer"
+        android:defaultValue="5"
+        app:seekBarPreference_minValue="1"
+        app:seekBarPreference_maxValue="60"
+        app:seekBarPreference_interval="1"
+        app:seekBarPreference_units="@string/get_location_interval_seekbar_units"/>
 
 </PreferenceScreen>
