@@ -36,14 +36,19 @@ public class LocationService extends GenericService implements GoogleApiClient.C
                 .build();
     }
 
-    public void save(Location location) {
-        locationDAO.save(location);
-    }
-
     public long count() {
         return locationDAO.count();
     }
 
+    public void save(Location location) {
+        try {
+            locationDAO.begin();
+            locationDAO.save(location);
+            locationDAO.commit();
+        } catch(Exception e) {
+            locationDAO.rollback();
+        }
+    }
 
     public Location getLastKnowLocation() {
         Location location = null;
@@ -75,7 +80,10 @@ public class LocationService extends GenericService implements GoogleApiClient.C
     public List<Location> findAllOrderedByDate() {
         // TODO: Limit somehow... we don't want to retrieve all saved locations
         locations = locationDAO.findAll();
-        Collections.sort(locations, new Location.DateDescComparator());
+
+        if(locations != null) {
+            Collections.sort(locations, new Location.DateDescComparator());
+        }
 
         return locations;
     }

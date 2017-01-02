@@ -89,8 +89,6 @@ public class MainActivity
             }
         };
 
-        dbHelper.getReadableDatabase();
-
         // Intent service
         Intent startServiceIntent =  new Intent(this, FollowMeIntentService.class);
         startService(startServiceIntent);
@@ -110,7 +108,6 @@ public class MainActivity
             Bundle fragmentBundle = new Bundle();
             fragmentBundle.putSerializable("location", lastKnownLocation);
             mapFragment.setArguments(fragmentBundle);
-            mapFragment.setArguments(getIntent().getExtras());
 
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.fragment_container, mapFragment).commit();
@@ -153,8 +150,18 @@ public class MainActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_drawer_map) {
+            // Get last know location
+            LocationService locationService = new LocationService(this);
+            Location lastKnownLocation = locationService.getLastKnowLocation();
+
             // Map fragment
             MapFragment mapFragment = new MapFragment();
+            Bundle fragmentBundle = new Bundle();
+            fragmentBundle.putSerializable("location", lastKnownLocation);
+            fragmentBundle.putBoolean("animate-camera", false);
+            mapFragment.setArguments(fragmentBundle);
+
+            // Map fragment
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, mapFragment);
             fragmentTransaction.addToBackStack(null);

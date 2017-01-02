@@ -64,7 +64,7 @@ public class MapFragment extends BaseFragment
                 locationService.save(location);
 
                 // Send map to that location
-                setMapLocation(location);
+                setMapLocation(location, true);
 
                 String info = "Locations: " + locationService.count(); //Last know location: (" + location.getLatitude() + ", " + location.getLongitude() + ")";
                 Snackbar.make(view, info, Snackbar.LENGTH_LONG).setAction("Action", null).show();
@@ -83,22 +83,11 @@ public class MapFragment extends BaseFragment
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        Location location = null;
-        Bundle bundle = getArguments();
-        if(bundle != null) {
-            location = (Location) bundle.getSerializable("location");
-        }
-
         // Map fragment
         mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.fragment_map);
         if (mapFragment == null) {
             mapFragment = SupportMapFragment.newInstance();
             getChildFragmentManager().beginTransaction().replace(R.id.fragment_map, mapFragment).commit();
-        }
-
-        if(location != null) {
-            // I have a location, let's go there
-            setMapLocation(location);
         }
     }
 
@@ -142,17 +131,34 @@ public class MapFragment extends BaseFragment
         Util.log(TAG, "Map ready: " + googleMap);
         this.map = googleMap;
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+
+        // Try to go to the location passed to the fragment
+        Location location = null;
+        Boolean animateCamera = false;
+        Bundle bundle = getArguments();
+        if(bundle != null) {
+            location = (Location) bundle.getSerializable("location");
+            animateCamera = (Boolean) bundle.getBoolean("animate-camera");
+        }
+
+        if(location != null) {
+            // I have a location, let's go there
+            setMapLocation(location, animateCamera);
+        }
     }
 
-    private void setMapLocation(Location location) {
+    private void setMapLocation(Location location, boolean animateCamera) {
         android.location.Location androidLocation = new android.location.Location(""); // Provider is not necessary
         androidLocation.setLatitude(new Double(location.getLatitude()));
         androidLocation.setLongitude(new Double(location.getLongitude()));
 
         if (map != null && androidLocation != null) {
             LatLng latLng = new LatLng(androidLocation.getLatitude(), androidLocation.getLongitude());
-            CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latLng, 15);
-            map.animateCamera(update);
+
+            if(animateCamera) {
+                CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latLng, 15);
+                map.animateCamera(update);
+            }
 
             Util.log(TAG, "Set map location: " + androidLocation.toString());
 

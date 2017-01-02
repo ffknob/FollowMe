@@ -64,6 +64,7 @@ public class Location implements GenericModel, Serializable, Comparable<Location
 
     @Override
     public void setValues(ContentValues values) {
+        this.id = values.getAsLong("_id");
         try {
             this.date =  (new SimpleDateFormat(DATE_FORMAT)).parse(values.getAsString("date"));
         } catch (ParseException e) {

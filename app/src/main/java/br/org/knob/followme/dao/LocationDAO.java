@@ -14,10 +14,27 @@ public class LocationDAO extends GenericDAO<Location> {
     private static final String TABLE_NAME = "locations";
     private static final String ID_COLUMN_NAME = "_id";
 
+    private Context context;
+
     public LocationDAO(Context context) {
-        super(Location.class);
-        // TODO: get from settings
-        dbHelper = new DatabaseHelper(context,  Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION);
+        super(Location.class, context, Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION);
+
+        this.context = context;
+    }
+
+    @Override
+    public Context getContext() {
+        return context;
+    }
+
+    @Override
+    public String getDbName() {
+        return Settings.DEFAULT_DATABASE_NAME;
+    }
+
+    @Override
+    public int getDbVersion() {
+        return Settings.DEFAULT_DATABASE_VERSION;
     }
 
     @Override

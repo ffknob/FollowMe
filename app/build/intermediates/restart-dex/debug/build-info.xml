@@ -5,7 +5,7 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="111233849534768"
+    timestamp="273895535492849"
     token="2601748946315713100"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -22,23 +22,22 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-
     <build
-        timestamp="110452195180806"
+        timestamp="273477407912524"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Desenvolvimento\workspace\FollowMe\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="111233849534768"
+        timestamp="273798645889276"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_b3afedcbd6a5c8a21ee14afb6e78ebbc64d173fa\classes.dex"
+            type="DEX" />
     </build>
+    <build
+        timestamp="273895535492849"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
