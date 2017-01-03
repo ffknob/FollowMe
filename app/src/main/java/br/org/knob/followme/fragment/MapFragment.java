@@ -41,8 +41,9 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
 
-        mapService = new MapService(getContext());
         locationService = new LocationService(getContext());
+        mapService = new MapService(getContext());
+        mapService.connect();
 
         return inflater.inflate(R.layout.fragment_map, container, false);
     }
@@ -107,12 +108,11 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     @Override
     public void onStart() {
         super.onStart();
-        //mGoogleApiClient.connect();
     }
 
     @Override
     public void onStop() {
-        //mGoogleApiClient.disconnect();
+        mapService.disconnect();
         super.onStop();
     }
 

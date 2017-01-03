@@ -60,7 +60,7 @@ public class MainActivity
         //PreferenceManager.getDefaultSharedPreferences(this).edit().clear().commit();
 
         // Check if app settings have already been initialized
-        if(!settingsService.isInitialized()) {
+        if (!settingsService.isInitialized()) {
             // If not, do it now
             settings.initialize();
             settingsService.commitToSharedPreferences();
@@ -82,7 +82,7 @@ public class MainActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Database
-        this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
+        //this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
         // TODO: get from settings
         DatabaseHelper dbHelper = new DatabaseHelper(this, Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION) {
             @Override
@@ -94,15 +94,16 @@ public class MainActivity
         };
 
         // Just to force it to create database if not exists
-        dbHelper.getDatabaseVersion();
+        dbHelper.getReadableDatabase();
 
         // Intent service
-        Intent startServiceIntent =  new Intent(this, FollowMeIntentService.class);
+        Intent startServiceIntent = new Intent(this, FollowMeIntentService.class);
         startService(startServiceIntent);
 
         // App services
-        LocationService locationService = new LocationService(this);
-        MapService mapService = new MapService(this);
+        locationService = new LocationService(this);
+        mapService = new MapService(this);
+        mapService.connect();
 
         // First fragment (map)
         if (findViewById(R.id.fragment_container) != null) {
@@ -122,6 +123,22 @@ public class MainActivity
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.fragment_container, mapFragment).commit();
         }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    public void onStop() {
+        mapService.disconnect();
+        super.onStop();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
     }
 
     @Override
@@ -184,7 +201,7 @@ public class MainActivity
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
 
-        }  else if (id == R.id.nav_drawer_share) {
+        } else if (id == R.id.nav_drawer_share) {
 
         } else if (id == R.id.nav_drawer_about) {
 

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 03 16:08:27 BRST 2017
+#Tue Jan 03 17:29:58 BRST 2017
 20.base=C\:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\resources-debug.ap_
 340.file=C\:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png

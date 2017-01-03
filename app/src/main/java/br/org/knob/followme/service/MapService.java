@@ -25,17 +25,19 @@ public class MapService extends GenericService implements GoogleApiClient.Connec
 
     private Context context;
 
-    private GoogleApiClient mGoogleApiClient;
+    private static GoogleApiClient mGoogleApiClient;
     private GoogleMap map;
 
     public MapService(Context context) {
         this.context = context;
 
-        mGoogleApiClient = new GoogleApiClient.Builder(context)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this)
-                .addApi(LocationServices.API)
-                .build();
+        if(mGoogleApiClient == null) {
+            mGoogleApiClient = new GoogleApiClient.Builder(context)
+                    .addConnectionCallbacks(this)
+                    .addOnConnectionFailedListener(this)
+                    .addApi(LocationServices.API)
+                    .build();
+        }
     }
 
     @Override
@@ -72,8 +74,6 @@ public class MapService extends GenericService implements GoogleApiClient.Connec
     public Location getLastKnowLocation() {
         Location location = null;
 
-        mGoogleApiClient.connect();
-
         if(mGoogleApiClient.isConnected()) {
             android.location.Location lastKnownLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
 
@@ -94,8 +94,6 @@ public class MapService extends GenericService implements GoogleApiClient.Connec
                         String.valueOf(lastKnownLocation.getLongitude()),
                         null);
             }
-
-            mGoogleApiClient.disconnect();
         }
 
         if(location == null) {
@@ -108,25 +106,27 @@ public class MapService extends GenericService implements GoogleApiClient.Connec
     }
 
     public void setMapLocation(Location location, boolean animateCamera) {
-        android.location.Location androidLocation = new android.location.Location(""); // Provider is not necessary
-        androidLocation.setLatitude(new Double(location.getLatitude()));
-        androidLocation.setLongitude(new Double(location.getLongitude()));
+        if(location != null) {
+            android.location.Location androidLocation = new android.location.Location(""); // Provider is not necessary
+            androidLocation.setLatitude(new Double(location.getLatitude()));
+            androidLocation.setLongitude(new Double(location.getLongitude()));
 
-        if (map != null && androidLocation != null) {
-            LatLng latLng = new LatLng(androidLocation.getLatitude(), androidLocation.getLongitude());
+            if (map != null && androidLocation != null) {
+                LatLng latLng = new LatLng(androidLocation.getLatitude(), androidLocation.getLongitude());
 
-            if(animateCamera) {
-                CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latLng, 15);
-                map.animateCamera(update);
+                if (animateCamera) {
+                    CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latLng, 15);
+                    map.animateCamera(update);
+                }
+
+                Util.log(TAG, "Set map location: " + androidLocation.toString());
+
+                CircleOptions circle = new CircleOptions().center(latLng);
+                circle.fillColor(Color.MAGENTA);
+                circle.radius(25);
+                map.clear();
+                map.addCircle(circle);
             }
-
-            Util.log(TAG, "Set map location: " + androidLocation.toString());
-
-            CircleOptions circle = new CircleOptions().center(latLng);
-            circle.fillColor(Color.MAGENTA);
-            circle.radius(25);
-            map.clear();
-            map.addCircle(circle);
         }
     }
 

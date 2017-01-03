@@ -5,22 +5,22 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="2144433211460"
+    timestamp="7137592322616"
     token="2601748946315713100"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1122" />
+        duration="452" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="46" />
+        duration="32" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
     <artifact
         location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
@@ -34,7 +34,34 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="2144433211460"
+        timestamp="2400468758749"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="5948926140921"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="6088739711119"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="7137592322616"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"

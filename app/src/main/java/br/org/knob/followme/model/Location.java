@@ -65,10 +65,12 @@ public class Location implements GenericModel, Serializable, Comparable<Location
         values.put("longitude", this.longitude);
 
         // Do some heavy lifting for the snapshot bitmap
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        snapshot.compress(Bitmap.CompressFormat.PNG, 0, byteArrayOutputStream);
-        byte[] byteArray = byteArrayOutputStream.toByteArray();
-        values.put("snapshot", byteArray);
+        if(snapshot != null) {
+            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+            snapshot.compress(Bitmap.CompressFormat.PNG, 0, byteArrayOutputStream);
+            byte[] byteArray = byteArrayOutputStream.toByteArray();
+            values.put("snapshot", byteArray);
+        }
 
         return values;
     }
@@ -85,7 +87,9 @@ public class Location implements GenericModel, Serializable, Comparable<Location
         this.longitude = values.getAsString("longitude");
 
         byte[] snapshotByteArray = values.getAsByteArray("snapshot");
-        this.snapshot = BitmapFactory.decodeByteArray(snapshotByteArray, 0, snapshotByteArray.length);
+        if(snapshotByteArray != null) {
+            this.snapshot = BitmapFactory.decodeByteArray(snapshotByteArray, 0, snapshotByteArray.length);
+        }
     };
 
     public String getLatitude() {
