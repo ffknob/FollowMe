@@ -24,6 +24,7 @@ public class FollowMeIntentService extends IntentService {
     protected void onHandleIntent(Intent intent) {
 
         final LocationService locationService = new LocationService(this);
+        final MapService mapService = new MapService(this);
 
         Integer getLocationIntervalSetting = (Integer)Settings.getInstance().get(Settings.FOLLOWME_SETTINGS_SERVICE_GET_LOCATION_INTERVAL);
 
@@ -31,7 +32,7 @@ public class FollowMeIntentService extends IntentService {
             new Timer().schedule(new TimerTask() {
                 @Override
                 public void run() {
-                    Location location = locationService.getLastKnowLocation();
+                    Location location = mapService.getLastKnowLocation();
                     if (location != null) {
                         locationService.save(location);
                     }

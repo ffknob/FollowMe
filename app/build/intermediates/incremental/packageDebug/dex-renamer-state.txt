@@ -1,4 +1,4 @@
-#Mon Jan 02 16:58:16 BRST 2017
+#Tue Jan 03 16:08:43 BRST 2017
 base.0=C\:\\Desenvolvimento\\workspace\\FollowMe\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_def0871d0a52b908d452716b1008bbc5ab8df910
 renamed.1=classes.dex
 renamed.0=classes2.dex

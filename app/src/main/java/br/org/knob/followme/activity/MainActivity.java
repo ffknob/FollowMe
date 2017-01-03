@@ -27,12 +27,16 @@ import br.org.knob.followme.fragment.MapFragment;
 import br.org.knob.followme.model.Location;
 import br.org.knob.followme.service.FollowMeIntentService;
 import br.org.knob.followme.service.LocationService;
+import br.org.knob.followme.service.MapService;
 import br.org.knob.followme.settings.Settings;
 
 public class MainActivity
         extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
+
+    private LocationService locationService;
+    private MapService mapService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +57,7 @@ public class MainActivity
 
         // TODO: remove
         // Clearing all preferencesto test the default values
-        PreferenceManager.getDefaultSharedPreferences(this).edit().clear().commit();
+        //PreferenceManager.getDefaultSharedPreferences(this).edit().clear().commit();
 
         // Check if app settings have already been initialized
         if(!settingsService.isInitialized()) {
@@ -78,20 +82,27 @@ public class MainActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Database
-        //this.deleteDatabase(Settings.DATABASE_NAME);
+        this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
         // TODO: get from settings
         DatabaseHelper dbHelper = new DatabaseHelper(this, Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION) {
             @Override
             public void onCreate(SQLiteDatabase db) {
-                db.execSQL("create table if not exists locations (_id integer primary key autoincrement, date text not null, latitude text not null, longitude text not null);");
+                db.execSQL("create table if not exists locations (_id integer primary key autoincrement, date text not null, latitude text not null, longitude text not null, snapshot blob);");
 
                 Util.log(TAG, "Created table locations");
             }
         };
 
+        // Just to force it to create database if not exists
+        dbHelper.getDatabaseVersion();
+
         // Intent service
         Intent startServiceIntent =  new Intent(this, FollowMeIntentService.class);
         startService(startServiceIntent);
+
+        // App services
+        LocationService locationService = new LocationService(this);
+        MapService mapService = new MapService(this);
 
         // First fragment (map)
         if (findViewById(R.id.fragment_container) != null) {
@@ -100,8 +111,7 @@ public class MainActivity
             }
 
             // Get last know location
-            LocationService locationService = new LocationService(this);
-            Location lastKnownLocation = locationService.getLastKnowLocation();
+            Location lastKnownLocation = mapService.getLastKnowLocation();
 
             // Map fragment
             MapFragment mapFragment = new MapFragment();
@@ -151,8 +161,7 @@ public class MainActivity
 
         if (id == R.id.nav_drawer_map) {
             // Get last know location
-            LocationService locationService = new LocationService(this);
-            Location lastKnownLocation = locationService.getLastKnowLocation();
+            Location lastKnownLocation = mapService.getLastKnowLocation();
 
             // Map fragment
             MapFragment mapFragment = new MapFragment();

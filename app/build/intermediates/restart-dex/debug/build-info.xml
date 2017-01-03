@@ -5,39 +5,40 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="273895535492849"
+    timestamp="2144433211460"
     token="2601748946315713100"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1122" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="46" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
+
+    <artifact
+        location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="273477407912524"
+        timestamp="1896805738537"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Desenvolvimento\workspace\FollowMe\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="273798645889276"
+        timestamp="2144433211460"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_b3afedcbd6a5c8a21ee14afb6e78ebbc64d173fa\classes.dex"
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="273895535492849"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

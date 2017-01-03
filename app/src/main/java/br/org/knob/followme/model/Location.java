@@ -1,7 +1,10 @@
 package br.org.knob.followme.model;
 
 import android.content.ContentValues;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 
+import java.io.ByteArrayOutputStream;
 import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -19,15 +22,17 @@ public class Location implements GenericModel, Serializable, Comparable<Location
     private Date date;
     private String latitude;
     private String longitude;
+    private Bitmap snapshot;
 
     public Location() {
 
     }
 
-    public Location(Date date, String latitude, String longitude) {
+    public Location(Date date, String latitude, String longitude, Bitmap snapshot) {
         this.date = date;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.snapshot = snapshot;
     }
 
     @Override
@@ -59,6 +64,12 @@ public class Location implements GenericModel, Serializable, Comparable<Location
         values.put("latitude", this.latitude);
         values.put("longitude", this.longitude);
 
+        // Do some heavy lifting for the snapshot bitmap
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        snapshot.compress(Bitmap.CompressFormat.PNG, 0, byteArrayOutputStream);
+        byte[] byteArray = byteArrayOutputStream.toByteArray();
+        values.put("snapshot", byteArray);
+
         return values;
     }
 
@@ -72,6 +83,9 @@ public class Location implements GenericModel, Serializable, Comparable<Location
         }
         this.latitude = values.getAsString("latitude");
         this.longitude = values.getAsString("longitude");
+
+        byte[] snapshotByteArray = values.getAsByteArray("snapshot");
+        this.snapshot = BitmapFactory.decodeByteArray(snapshotByteArray, 0, snapshotByteArray.length);
     };
 
     public String getLatitude() {
@@ -88,6 +102,14 @@ public class Location implements GenericModel, Serializable, Comparable<Location
 
     public void setLongitude(String longitude) {
         this.longitude = longitude;
+    }
+
+    public Bitmap getSnapshot() {
+        return snapshot;
+    }
+
+    public void setSnapshot(Bitmap snapshot) {
+        this.snapshot = snapshot;
     }
 
     @Override
