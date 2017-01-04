@@ -80,29 +80,15 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
             mapFragment = SupportMapFragment.newInstance();
             getChildFragmentManager().beginTransaction().replace(R.id.fragment_map, mapFragment).commit();
         }
+
+        if(!mapService.isMapReady()) {
+            mapFragment.getMapAsync(this);
+        }
     }
 
     @Override
     public void onResume() {
         super.onResume();
-
-        if(!mapService.isMapReady()) {
-            mapFragment.getMapAsync(this);
-        } else {
-            // Try to go to the location passed to the fragment
-            Location location = null;
-            Boolean animateCamera = false;
-            Bundle bundle = getArguments();
-            if(bundle != null) {
-                location = (Location) bundle.getSerializable("location");
-                animateCamera = (Boolean) bundle.getBoolean("animate-camera");
-            }
-
-            if(location != null) {
-                // I have a location, let's go there
-                mapService.setMapLocation(location, animateCamera);
-            }
-        }
     }
 
     @Override
@@ -122,5 +108,21 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
 
         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         mapService.setMap(googleMap);
+
+        if(mapService.isMapReady()) {
+            // Try to go to the location passed to the fragment
+            Location location = null;
+            Boolean animateCamera = false;
+            Bundle bundle = getArguments();
+            if(bundle != null) {
+                location = (Location) bundle.getSerializable("location");
+                animateCamera = (Boolean) bundle.getBoolean("animate-camera");
+            }
+
+            if(location != null) {
+                // I have a location, let's go there
+                mapService.setMapLocation(location, animateCamera);
+            }
+        }
     }
 }

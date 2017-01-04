@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FollowMe.iml" filepath="$PROJECT_DIR$/FollowMe.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/br.org.knob.android/br.org.knob.android.iml" filepath="$PROJECT_DIR$/br.org.knob.android/br.org.knob.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/br.org.knob.android/framework/framework.iml" filepath="$PROJECT_DIR$/br.org.knob.android/framework/framework.iml" />
     </modules>
   </component>
 </project>

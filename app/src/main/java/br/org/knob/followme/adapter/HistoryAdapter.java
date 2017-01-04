@@ -1,11 +1,13 @@
 package br.org.knob.followme.adapter;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -44,12 +46,16 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
 
         if(location != null && holder != null) {
             // TODO: set a better title
+            Bitmap snapshot = location.getSnapshot() != null ? location.getSnapshot() : null;
             String title = location.getId() != null ? "Location #" + location.getId() : "";
             String latitude = location.getLatitude() != null ? location.getLatitude() : "";
             String longitude = location.getLongitude() != null ? location.getLongitude() : "";
             String date = location.getDate() != null ? location.getDate().toString() : "";
 
             // Put values into respective views
+            if(snapshot != null) {
+                holder.snapshotView.setImageBitmap(snapshot);
+            }
             holder.titleView.setText(title);
             holder.latitudeView.setText(latitude);
             holder.longitudeView.setText(longitude);
@@ -79,6 +85,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
     }
 
     public static class HistoryViewHolder extends RecyclerView.ViewHolder {
+        public ImageView snapshotView;
         public TextView titleView;
         public TextView latitudeView;
         public TextView longitudeView;
@@ -87,6 +94,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
 
         public HistoryViewHolder(View view) {
             super(view);
+            snapshotView = (ImageView) view.findViewById(R.id.adapter_history_snapshot);
             titleView = (TextView) view.findViewById(R.id.adapter_history_title);
             latitudeView = (TextView) view.findViewById(R.id.adapter_history_latitude);
             longitudeView = (TextView) view.findViewById(R.id.adapter_history_longitude);

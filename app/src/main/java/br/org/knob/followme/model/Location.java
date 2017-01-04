@@ -12,6 +12,7 @@ import java.util.Comparator;
 import java.util.Date;
 
 import br.org.knob.android.framework.model.GenericModel;
+import br.org.knob.android.framework.util.Util;
 
 public class Location implements GenericModel, Serializable, Comparable<Location> {
     public static final String TAG = "Location";
@@ -49,6 +50,9 @@ public class Location implements GenericModel, Serializable, Comparable<Location
         return id;
     }
 
+    @Override
+    public void setId(Long id) { this.id = id; }
+
     public Date getDate() {
         return date;
     }
@@ -70,6 +74,8 @@ public class Location implements GenericModel, Serializable, Comparable<Location
             snapshot.compress(Bitmap.CompressFormat.PNG, 0, byteArrayOutputStream);
             byte[] byteArray = byteArrayOutputStream.toByteArray();
             values.put("snapshot", byteArray);
+        } else {
+            values.putNull("snapshot");
         }
 
         return values;
@@ -79,7 +85,7 @@ public class Location implements GenericModel, Serializable, Comparable<Location
     public void setValues(ContentValues values) {
         this.id = values.getAsLong("_id");
         try {
-            this.date =  (new SimpleDateFormat(DATE_FORMAT)).parse(values.getAsString("date"));
+            this.date = (new SimpleDateFormat(DATE_FORMAT)).parse(values.getAsString("date"));
         } catch (ParseException e) {
             e.printStackTrace();
         }

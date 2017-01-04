@@ -3,6 +3,7 @@ package br.org.knob.followme.activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
@@ -82,7 +83,7 @@ public class MainActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Database
-        //this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
+        this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
         // TODO: get from settings
         DatabaseHelper dbHelper = new DatabaseHelper(this, Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION) {
             @Override
@@ -162,6 +163,8 @@ public class MainActivity
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
+        toggleHideyBar();
+
         if (id == R.id.activity_main_action_find) {
             return true;
         } else if (id == R.id.activity_main_action_refresh) {
@@ -212,5 +215,38 @@ public class MainActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.nav_drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+
+        if(hasFocus) {
+            toggleHideyBar();
+        }
+    }
+
+    // https://developer.android.com/samples/ImmersiveMode/src/com.example.android.immersivemode/ImmersiveModeFragment.html#l75
+    public void toggleHideyBar() {
+        int uiOptions = getWindow().getDecorView().getSystemUiVisibility();
+        int newUiOptions = uiOptions;
+        boolean isImmersiveModeEnabled = ((uiOptions | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY) == uiOptions);
+
+        // Navigation bar hiding:  Backwards compatible to ICS.
+        if (Build.VERSION.SDK_INT >= 14) {
+            newUiOptions ^= View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
+        }
+
+        // Status bar hiding: Backwards compatible to Jellybean
+        if (Build.VERSION.SDK_INT >= 16) {
+            newUiOptions ^= View.SYSTEM_UI_FLAG_FULLSCREEN;
+        }
+
+        // Immersive mode: Backward compatible to KitKat.
+        if (Build.VERSION.SDK_INT >= 18) {
+            newUiOptions ^= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
+        }
+
+        getWindow().getDecorView().setSystemUiVisibility(newUiOptions);
     }
 }

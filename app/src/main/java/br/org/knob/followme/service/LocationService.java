@@ -39,6 +39,8 @@ public class LocationService extends GenericService {
         return locationDAO.count();
     }
 
+    public boolean isPersisted(Location location) { return locationDAO.isPersisted(location); }
+
     public void save(Location location) {
         try {
             locationDAO.begin();

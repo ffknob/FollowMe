@@ -15,6 +15,8 @@ import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 
 import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import br.org.knob.android.framework.service.GenericService;
 import br.org.knob.android.framework.util.Util;
@@ -80,19 +82,14 @@ public class MapService extends GenericService implements GoogleApiClient.Connec
             if(lastKnownLocation != null) {
                 Util.log(TAG, "Last know location: " + lastKnownLocation.toString());
 
-                // Try to get a snapshot from the location
-                map.snapshot(new GoogleMap.SnapshotReadyCallback() {
-                    @Override
-                    public void onSnapshotReady(Bitmap bitmap) {
-
-                    }
-                });
-
                 location = new Location(
                         new Date(),
                         String.valueOf(lastKnownLocation.getLatitude()),
                         String.valueOf(lastKnownLocation.getLongitude()),
                         null);
+
+                MapSnapshotService mapSnapshotService = new MapSnapshotService(context, map, location);
+                mapSnapshotService.takeSnapshot(true);
             }
         }
 
@@ -114,9 +111,11 @@ public class MapService extends GenericService implements GoogleApiClient.Connec
             if (map != null && androidLocation != null) {
                 LatLng latLng = new LatLng(androidLocation.getLatitude(), androidLocation.getLongitude());
 
+                CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latLng, 15);
                 if (animateCamera) {
-                    CameraUpdate update = CameraUpdateFactory.newLatLngZoom(latLng, 15);
                     map.animateCamera(update);
+                } else {
+                    map.moveCamera(update);
                 }
 
                 Util.log(TAG, "Set map location: " + androidLocation.toString());

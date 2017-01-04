@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':br.org.knob.android:framework'
