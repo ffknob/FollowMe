@@ -5,29 +5,26 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="88141137183985"
+    timestamp="93542519098626"
     token="2601748946315713100"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1495" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="42" />
+        duration="0" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
         location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
-    <artifact
-        location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
 
     <build
         timestamp="86674824066600"
@@ -37,14 +34,39 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="88141137183985"
+        timestamp="89450178537794"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="89692160090677"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="90280875758760"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="91459739889699"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_b3afedcbd6a5c8a21ee14afb6e78ebbc64d173fa\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="93542519098626"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-        <artifact
-            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

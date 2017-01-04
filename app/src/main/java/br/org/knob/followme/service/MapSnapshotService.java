@@ -30,28 +30,30 @@ public class MapSnapshotService {
     public void takeSnapshot(boolean _saveIfPersised) {
         this.saveIfPersised = _saveIfPersised;
 
-        map.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
-            public void onMapLoaded() {
-                map.snapshot(new GoogleMap.SnapshotReadyCallback() {
-                    public void onSnapshotReady(Bitmap bitmap) {
-                        if(location != null) {
-                            // Resize the snapshot to thumbnail size
-                            Bitmap resizedBitmap = scaleCenterCrop(bitmap, MAP_SNAPSHOT_WIDTH,  MAP_SNAPSHOT_HEIGHT);
-                            //bitmap.recycle();
+        if(map != null) {
+            map.setOnMapLoadedCallback(new GoogleMap.OnMapLoadedCallback() {
+                public void onMapLoaded() {
+                    map.snapshot(new GoogleMap.SnapshotReadyCallback() {
+                        public void onSnapshotReady(Bitmap bitmap) {
+                            if (location != null) {
+                                // Resize the snapshot to thumbnail size
+                                Bitmap resizedBitmap = scaleCenterCrop(bitmap, MAP_SNAPSHOT_WIDTH, MAP_SNAPSHOT_HEIGHT);
+                                //bitmap.recycle();
 
-                            // Set snapshot to the location and save it (if asked for)
-                            location.setSnapshot(resizedBitmap);
+                                // Set snapshot to the location and save it (if asked for)
+                                location.setSnapshot(resizedBitmap);
 
-                            LocationService locationService = new LocationService(context);
-                            if (saveIfPersised && locationService.isPersisted(location)) {
-                                locationService.save(location);
+                                LocationService locationService = new LocationService(context);
+                                if (saveIfPersised && locationService.isPersisted(location)) {
+                                    locationService.save(location);
+                                }
+
                             }
-
                         }
-                    }
-                });
-            }
-        });
+                    });
+                }
+            });
+        }
     }
 
     public Bitmap scaleCenterCrop(Bitmap sourceBitmap, int newHeight, int newWidth) {

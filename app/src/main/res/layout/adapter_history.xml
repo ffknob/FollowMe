@@ -21,14 +21,16 @@
 
         <ImageView
             android:id="@+id/adapter_history_snapshot"
-            android:layout_width="30dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="3"
             android:scaleType="centerCrop"
             android:src="@drawable/common_google_signin_btn_icon_dark_disabled" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_weight="7"
             android:orientation="vertical"
             android:padding="@dimen/kaf_default_padding">
 

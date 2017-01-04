@@ -9,13 +9,14 @@
     android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/green_100"
         android:layout_marginBottom="6dip"
         android:layout_marginLeft="15dip"
         android:layout_marginRight="6dip"
-        android:layout_marginTop="6dip"
-        android:layout_weight="1">
+        android:layout_marginTop="6dip">
 
         <TextView
             android:id="@android:id/title"
@@ -40,7 +41,8 @@
     <LinearLayout
         android:id="@+id/seekbar_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amber_800"
         android:layout_centerVertical="true"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
@@ -49,7 +51,7 @@
 
         <TextView
             android:id="@+id/seekbar_min_value"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"

@@ -23,10 +23,9 @@ public class Location implements GenericModel, Serializable, Comparable<Location
     private Date date;
     private String latitude;
     private String longitude;
-    private Bitmap snapshot;
+    private transient Bitmap snapshot;
 
     public Location() {
-
     }
 
     public Location(Date date, String latitude, String longitude, Bitmap snapshot) {

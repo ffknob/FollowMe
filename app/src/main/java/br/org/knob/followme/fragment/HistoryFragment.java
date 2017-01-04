@@ -57,6 +57,8 @@ public class HistoryFragment extends BaseFragment {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setHasFixedSize(true);
 
+        setRetainInstance(true);
+
         return view;
     }
 
@@ -73,7 +75,8 @@ public class HistoryFragment extends BaseFragment {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        // TODO: save state
+
+
     }
 
     private HistoryAdapter.ItemOnClickListener onClickItem() {

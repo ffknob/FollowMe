@@ -83,7 +83,7 @@ public class MainActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Database
-        this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
+        //this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
         // TODO: get from settings
         DatabaseHelper dbHelper = new DatabaseHelper(this, Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION) {
             @Override
