@@ -3,7 +3,6 @@ package br.org.knob.followme.fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -17,8 +16,8 @@ import br.org.knob.android.framework.fragment.BaseFragment;
 import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
 import br.org.knob.followme.adapter.HistoryAdapter;
-import br.org.knob.followme.model.Location;
-import br.org.knob.followme.service.LocationService;
+import br.org.knob.android.framework.model.Location;
+import br.org.knob.android.framework.service.LocationService;
 
 
 public class HistoryFragment extends BaseFragment {

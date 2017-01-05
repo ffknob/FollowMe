@@ -1,7 +1,5 @@
 package br.org.knob.followme.fragment;
 
-import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,25 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.maps.CameraUpdate;
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.CircleOptions;
-import com.google.android.gms.maps.model.LatLng;
-
-import java.util.Date;
 
 import br.org.knob.android.framework.fragment.BaseFragment;
 import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
-import br.org.knob.followme.service.LocationService;
-import br.org.knob.followme.model.Location;
-import br.org.knob.followme.service.MapService;
+import br.org.knob.android.framework.service.LocationService;
+import br.org.knob.android.framework.model.Location;
+import br.org.knob.android.framework.service.MapService;
 
 public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     private static final String TAG = "MapFragment";

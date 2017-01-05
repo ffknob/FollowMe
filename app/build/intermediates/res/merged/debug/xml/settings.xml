@@ -21,7 +21,6 @@
         android:summary="@string/followme_settings_get_location_interval_desc"
         android:dialogMessage="@string/followme_settings_get_location_interval_dialog"
         android:inputType="number"
-        android:maxWidth="@dimen/kaf_small_form_field_width"
         android:numeric="integer"
         android:defaultValue="5"
         app:seekBarPreference_minValue="1"

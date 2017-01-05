@@ -1280,6 +1280,7 @@ int id number_picker 0x7f0d009f
 int id parallax 0x7f0d002c
 int id parentPanel 0x7f0d0053
 int id pin 0x7f0d002d
+int id preference_header 0x7f0d00a0
 int id progress_circular 0x7f0d0006
 int id progress_horizontal 0x7f0d0007
 int id radio 0x7f0d0061
@@ -1302,11 +1303,10 @@ int id search_mag_icon 0x7f0d006f
 int id search_plate 0x7f0d0070
 int id search_src_text 0x7f0d0071
 int id search_voice_btn 0x7f0d0075
-int id seekbar 0x7f0d00a2
-int id seekbar_container 0x7f0d00a0
+int id seekbar 0x7f0d00a1
 int id seekbar_current_value 0x7f0d00a4
 int id seekbar_max_value 0x7f0d00a3
-int id seekbar_min_value 0x7f0d00a1
+int id seekbar_min_value 0x7f0d00a2
 int id select_dialog_listview 0x7f0d0076
 int id shortcut 0x7f0d0060
 int id showCustom 0x7f0d0011

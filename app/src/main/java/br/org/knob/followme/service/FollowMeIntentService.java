@@ -6,7 +6,9 @@ import android.content.Intent;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import br.org.knob.followme.model.Location;
+import br.org.knob.android.framework.model.Location;
+import br.org.knob.android.framework.service.LocationService;
+import br.org.knob.android.framework.service.MapService;
 import br.org.knob.followme.settings.Settings;
 
 public class FollowMeIntentService extends IntentService {

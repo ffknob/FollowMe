@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="84826f77f0038fad86c9ee385db943e84e03ab0a">
+        sha1="15c9e9bc165e8cdfea3b32d3749a6722b18c6ab6">
         <dex dex="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_def0871d0a52b908d452716b1008bbc5ab8df910\classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="49bad48ec4b1536510f672f37d9762432212288c">
+        sha1="19447830400c40ffd0207afbbadc9819f9685c0a">
         <dex dex="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9fc6fa4015eed8cbbf59d8b2b44320c6822f609f\classes.dex" />
     </item>
     <item
@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="c7f29a6484d3072eaf83e2752b96510d6aa5b878">
+        sha1="27c969eac5c24343c3ff3607aaee3c18fc8c8c57">
         <dex dex="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_b3afedcbd6a5c8a21ee14afb6e78ebbc64d173fa\classes.dex" />
     </item>
     <item

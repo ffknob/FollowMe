@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import br.org.knob.followme.R;
-import br.org.knob.followme.model.Location;
+import br.org.knob.android.framework.model.Location;
 
 public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryViewHolder> {
     protected static final String TAG = "HistoryAdapter";

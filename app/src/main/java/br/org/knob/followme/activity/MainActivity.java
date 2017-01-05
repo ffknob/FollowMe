@@ -1,11 +1,9 @@
 package br.org.knob.followme.activity;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -25,10 +23,10 @@ import br.org.knob.followme.R;
 import br.org.knob.followme.adapter.SettingsAdapter;
 import br.org.knob.followme.fragment.HistoryFragment;
 import br.org.knob.followme.fragment.MapFragment;
-import br.org.knob.followme.model.Location;
+import br.org.knob.android.framework.model.Location;
 import br.org.knob.followme.service.FollowMeIntentService;
-import br.org.knob.followme.service.LocationService;
-import br.org.knob.followme.service.MapService;
+import br.org.knob.android.framework.service.LocationService;
+import br.org.knob.android.framework.service.MapService;
 import br.org.knob.followme.settings.Settings;
 
 public class MainActivity
@@ -81,21 +79,6 @@ public class MainActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        // Database
-        //this.deleteDatabase(Settings.DEFAULT_DATABASE_NAME);
-        // TODO: get from settings
-        DatabaseHelper dbHelper = new DatabaseHelper(this, Settings.DEFAULT_DATABASE_NAME, Settings.DEFAULT_DATABASE_VERSION) {
-            @Override
-            public void onCreate(SQLiteDatabase db) {
-                db.execSQL("create table if not exists locations (_id integer primary key autoincrement, date text not null, latitude text not null, longitude text not null, snapshot blob);");
-
-                Util.log(TAG, "Created table locations");
-            }
-        };
-
-        // Just to force it to create database if not exists
-        dbHelper.getReadableDatabase();
 
         // Intent service
         Intent startServiceIntent = new Intent(this, FollowMeIntentService.class);
