@@ -1016,7 +1016,6 @@ public final class R {
 		public static final int normal = 0x7f0d000c;
 		public static final int number_picker = 0x7f0d009f;
 		public static final int parentPanel = 0x7f0d0053;
-		public static final int preference_header = 0x7f0d00a0;
 		public static final int progress_circular = 0x7f0d0006;
 		public static final int progress_horizontal = 0x7f0d0007;
 		public static final int radio = 0x7f0d0061;
@@ -1036,9 +1035,9 @@ public final class R {
 		public static final int search_src_text = 0x7f0d0071;
 		public static final int search_voice_btn = 0x7f0d0075;
 		public static final int seekbar = 0x7f0d00a1;
-		public static final int seekbar_current_value = 0x7f0d00a4;
-		public static final int seekbar_max_value = 0x7f0d00a3;
-		public static final int seekbar_min_value = 0x7f0d00a2;
+		public static final int seekbar_current_value = 0x7f0d00a3;
+		public static final int seekbar_max_value = 0x7f0d00a2;
+		public static final int seekbar_min_value = 0x7f0d00a0;
 		public static final int select_dialog_listview = 0x7f0d0076;
 		public static final int shortcut = 0x7f0d0060;
 		public static final int showCustom = 0x7f0d0011;

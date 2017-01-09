@@ -1009,7 +1009,6 @@ int id none 0x7f0c000e
 int id normal 0x7f0c000a
 int id number_picker 0x7f0c0068
 int id parentPanel 0x7f0c0038
-int id preference_header 0x7f0c0069
 int id progress_circular 0x7f0c0005
 int id progress_horizontal 0x7f0c0006
 int id radio 0x7f0c0046
@@ -1029,9 +1028,9 @@ int id search_plate 0x7f0c0054
 int id search_src_text 0x7f0c0055
 int id search_voice_btn 0x7f0c0059
 int id seekbar 0x7f0c006a
-int id seekbar_current_value 0x7f0c006d
-int id seekbar_max_value 0x7f0c006c
-int id seekbar_min_value 0x7f0c006b
+int id seekbar_current_value 0x7f0c006c
+int id seekbar_max_value 0x7f0c006b
+int id seekbar_min_value 0x7f0c0069
 int id select_dialog_listview 0x7f0c005a
 int id shortcut 0x7f0c0045
 int id showCustom 0x7f0c000f

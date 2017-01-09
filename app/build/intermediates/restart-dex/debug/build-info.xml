@@ -5,57 +5,46 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="63294270557996"
+    timestamp="39705387408180"
     token="2601748946315713100"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1104" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="44" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
         location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
+    <artifact
+        location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="62295586964776"
+        timestamp="37905986802732"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Desenvolvimento\workspace\FollowMe\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="62834231654143"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\10\br.org.knob.android-framework-0.0.1_b3afedcbd6a5c8a21ee14afb6e78ebbc64d173fa\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="63074168042967"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="63294270557996"
+        timestamp="39705387408180"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
+        <artifact
+            location="C:\Desenvolvimento\workspace\FollowMe\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

@@ -43,6 +43,24 @@ public class SettingsActivity extends BaseActivity {
     }
 
     @Override
+    public void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    public void onStop() { super.onStop(); }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.settings, menu);
         return true;
