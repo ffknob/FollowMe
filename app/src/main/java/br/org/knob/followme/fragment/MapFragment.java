@@ -44,19 +44,13 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Last know location
-                lastKnownLocation = mapService.getLastKnowLocation();
-
-                // Save location
-                locationService.save(lastKnownLocation);
-
-                // Send map to that location
-                mapService.setMapLocation(lastKnownLocation, true);
-
-                String info = "Locations: " + locationService.count(); //Last know location: (" + location.getLatitude() + ", " + location.getLongitude() + ")";
-                Snackbar.make(view, info, Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                // Send map to that last known location when button clicked
+                sendMapToLastKnownLocation(view);
             }
         });
+
+        // Also send map to last known location when fragment reloaded
+        sendMapToLastKnownLocation(view);
     }
 
     @Override
@@ -76,8 +70,18 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     }
 
     @Override
+    public void onPause() {
+        super.onPause();
+        mapService.disconnect();
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
+
+        if(!mapService.isConnected()) {
+            mapService.connect();
+        }
     }
 
     @Override
@@ -113,5 +117,13 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
                 mapService.setMapLocation(location, animateCamera);
             }
         }
+    }
+
+    private void sendMapToLastKnownLocation(View view) {
+        // Send map to that last known location
+        mapService.setLastKnownLocation();
+
+        String info = "Locations: " + locationService.count(); //Last know location: (" + location.getLatitude() + ", " + location.getLongitude() + ")";
+        Snackbar.make(view, info, Snackbar.LENGTH_LONG).setAction("Action", null).show();
     }
 }
