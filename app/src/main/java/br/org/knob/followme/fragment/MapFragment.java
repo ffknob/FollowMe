@@ -24,7 +24,9 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     private SupportMapFragment mapFragment;
     private MapService mapService;
     private LocationService locationService;
+
     private Location lastKnownLocation;
+    private Boolean animateCamera;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -48,14 +50,17 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
                 sendMapToLastKnownLocation(view);
             }
         });
-
-        // Also send map to last known location when fragment reloaded
-        sendMapToLastKnownLocation(view);
     }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        if(savedInstanceState != null) {
+            restoreState(savedInstanceState);
+        } else {
+            restoreState(getArguments());
+        }
 
         // Map fragment
         mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.fragment_map);
@@ -70,29 +75,34 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     }
 
     @Override
-    public void onPause() {
-        super.onPause();
-        mapService.disconnect();
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        saveState(outState);
     }
 
     @Override
     public void onResume() {
         super.onResume();
-
-        if(!mapService.isConnected()) {
-            mapService.connect();
-        }
+        mapFragment.onResume();
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
+    public void onPause() {
+        super.onPause();
+        mapFragment.onPause();
     }
 
     @Override
-    public void onStop() {
-        mapService.disconnect();
-        super.onStop();
+    public void onDestroy() {
+        super.onDestroy();
+        mapFragment.onDestroy();
+    }
+
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        mapFragment.onLowMemory();
     }
 
     @Override
@@ -104,19 +114,21 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
 
         if(mapService.isMapReady()) {
             // Try to go to the location passed to the fragment
-            Location location = null;
-            Boolean animateCamera = false;
-            Bundle bundle = getArguments();
-            if(bundle != null) {
-                location = (Location) bundle.getSerializable("location");
-                animateCamera = (Boolean) bundle.getBoolean("animate-camera");
-            }
-
-            if(location != null) {
+            if(lastKnownLocation != null) {
                 // I have a location, let's go there
-                mapService.setMapLocation(location, animateCamera);
+                mapService.setMapLocation(lastKnownLocation, animateCamera ? null : false);
             }
         }
+    }
+
+    private void saveState(Bundle outState) {
+        outState.putSerializable("location", lastKnownLocation);
+        outState.putSerializable("animate-camera", animateCamera);
+    }
+
+    private void restoreState(Bundle savedInstanceState) {
+        lastKnownLocation = (Location) savedInstanceState.getSerializable("location");
+        animateCamera = savedInstanceState.getBoolean("animate-camera");
     }
 
     private void sendMapToLastKnownLocation(View view) {
