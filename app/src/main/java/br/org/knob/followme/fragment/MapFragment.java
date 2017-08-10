@@ -21,6 +21,9 @@ import br.org.knob.android.framework.service.MapService;
 public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     private static final String TAG = "MapFragment";
 
+    public static final String LOCATION_KEY = "location";
+    public static final String ANIMATE_CAMERA_KEY = "animate-camera";
+
     private SupportMapFragment mapFragment;
     private MapService mapService;
     private LocationService locationService;
@@ -94,6 +97,11 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     }
 
     @Override
+    public void onStop() {
+        super.onStop();
+    }
+
+    @Override
     public void onDestroy() {
         super.onDestroy();
         mapFragment.onDestroy();
@@ -122,13 +130,13 @@ public class MapFragment extends BaseFragment implements OnMapReadyCallback {
     }
 
     private void saveState(Bundle outState) {
-        outState.putSerializable("location", lastKnownLocation);
-        outState.putSerializable("animate-camera", animateCamera);
+        outState.putSerializable(LOCATION_KEY, lastKnownLocation);
+        outState.putSerializable(ANIMATE_CAMERA_KEY, animateCamera);
     }
 
     private void restoreState(Bundle savedInstanceState) {
-        lastKnownLocation = (Location) savedInstanceState.getSerializable("location");
-        animateCamera = savedInstanceState.getBoolean("animate-camera");
+        lastKnownLocation = (Location) savedInstanceState.getSerializable(LOCATION_KEY);
+        animateCamera = savedInstanceState.getBoolean(ANIMATE_CAMERA_KEY);
     }
 
     private void sendMapToLastKnownLocation(View view) {

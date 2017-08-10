@@ -29,4 +29,13 @@
         app:seekBarPreference_interval="1"
         app:seekBarPreference_units="@string/get_location_interval_seekbar_units"/>
 
+    <br.org.knob.android.framework.preference.YesNoPreference
+        android:key="followme_settings_clean_history"
+        android:title="@string/followme_settings_clean_history"
+        android:summary="@string/followme_settings_clean_history_desc"
+        android:dialogMessage="@string/followme_settings_clean_history_dialog"
+        android:positiveButtonText="@string/confirm"
+        android:negativeButtonText="@string/cancel"
+        />
+
 </PreferenceScreen>

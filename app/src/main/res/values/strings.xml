@@ -21,11 +21,18 @@
     <string name="followme_settings_get_location_interval">Get location interval</string>
     <string name="followme_settings_get_location_interval_desc">Interval to get last know GPS location</string>
     <string name="followme_settings_get_location_interval_dialog">Interval (in minutes)</string>
+    <string name="followme_settings_clean_history">Clean history</string>
+    <string name="followme_settings_clean_history_desc">Clean location history </string>
+    <string name="followme_settings_clean_history_dialog">All your location history will be deleted. Confirm?</string>
     <string name="get_location_interval_seekbar_units">min</string>
 
     <!-- Action bar actions -->
     <string name="find">Find</string>
     <string name="refresh">Refresh</string>
+
+    <!-- General strings -->
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
 
     <!-- Error messsages -->
 

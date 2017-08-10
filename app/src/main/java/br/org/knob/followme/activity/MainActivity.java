@@ -1,11 +1,11 @@
 package br.org.knob.followme.activity;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -15,23 +15,26 @@ import android.view.MenuItem;
 import android.view.View;
 
 import br.org.knob.android.framework.activity.BaseActivity;
-import br.org.knob.android.framework.database.DatabaseHelper;
 import br.org.knob.android.framework.manager.KafManager;
+import br.org.knob.android.framework.model.Location;
+import br.org.knob.android.framework.service.LocationService;
+import br.org.knob.android.framework.service.MapService;
 import br.org.knob.android.framework.service.SettingsService;
 import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
+import br.org.knob.followme.adapter.HistoryAdapter;
 import br.org.knob.followme.adapter.SettingsAdapter;
 import br.org.knob.followme.fragment.HistoryFragment;
 import br.org.knob.followme.fragment.MapFragment;
-import br.org.knob.android.framework.model.Location;
 import br.org.knob.followme.service.FollowMeIntentService;
-import br.org.knob.android.framework.service.LocationService;
-import br.org.knob.android.framework.service.MapService;
 import br.org.knob.followme.settings.Settings;
 
 public class MainActivity
         extends BaseActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,
+                    HistoryFragment.OnItemSelectedListener,
+                    HistoryFragment.OnItemSwipedListener,
+                    HistoryFragment.OnItemLongClickedListener {
     private static final String TAG = "MainActivity";
 
     private LocationService locationService;
@@ -55,7 +58,7 @@ public class MainActivity
         SettingsService settingsService = new SettingsService(this, new SettingsAdapter());
 
         // TODO: remove
-        // Clearing all preferencesto test the default values
+        // Clearing all preferences to test the default values
         //PreferenceManager.getDefaultSharedPreferences(this).edit().clear().commit();
 
         // Check if app settings have already been initialized
@@ -101,7 +104,7 @@ public class MainActivity
             // Map fragment
             MapFragment mapFragment = new MapFragment();
             Bundle fragmentBundle = new Bundle();
-            fragmentBundle.putSerializable("location", lastKnownLocation);
+            fragmentBundle.putSerializable(MapFragment.LOCATION_KEY, lastKnownLocation);
             mapFragment.setArguments(fragmentBundle);
 
             getSupportFragmentManager().beginTransaction()
@@ -231,5 +234,32 @@ public class MainActivity
         }
 
         getWindow().getDecorView().setSystemUiVisibility(newUiOptions);
+    }
+
+    @Override
+    public void onHistoryLocationSelected(Location location) {
+        Util.toast(this,"Selected location #" + location.getId());
+
+        // Map fragment
+        MapFragment mapFragment = new MapFragment();
+        Bundle fragmentBundle = new Bundle();
+        fragmentBundle.putSerializable(MapFragment.LOCATION_KEY, location);
+        mapFragment.setArguments(fragmentBundle);
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, mapFragment).commit();
+    }
+
+    @Override
+    public void onHistoryLocationSwiped(Location location, HistoryAdapter historyAdapter, int idx) {
+        Util.toast(this,"Swiped location #" + location.getId());
+        historyAdapter.getItens().remove(idx);
+        historyAdapter.notifyItemRemoved(idx);
+    }
+
+    @Override
+    public void onHistoryLocationLongClicked(Location location, HistoryAdapter historyAdapter, int idx, View view) {
+        Util.toast(this,"Long clicked location #" + location.getId());
+        view.setBackgroundColor(ContextCompat.getColor(this, R.color.colorAccent));
     }
 }

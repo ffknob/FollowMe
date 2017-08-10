@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="support-fragment-24.2.1">
-    <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/ef08d177e524d3a8bd58ebf7822fe32230f8f34c/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ef08d177e524d3a8bd58ebf7822fe32230f8f34c/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ef08d177e524d3a8bd58ebf7822fe32230f8f34c/output/jars/libs/internal_impl-24.2.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
