@@ -6,6 +6,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.MotionEventCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.view.GestureDetector;
+import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -16,29 +18,24 @@ import android.widget.TextView;
 import java.util.List;
 
 import br.org.knob.android.framework.model.Location;
-import br.org.knob.android.framework.ui.ItemTouchHelperAdapter;
+import br.org.knob.android.framework.ui.ItemTouchHelperAdapterListener;
+import br.org.knob.android.framework.ui.OnSwipeTouchListener;
 import br.org.knob.followme.R;
 
-public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryViewHolder>
-    implements ItemTouchHelperAdapter {
+public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryViewHolder> {
     protected static final String TAG = "HistoryAdapter";
 
     private final Context context;
     private List<? extends Location> itens;
 
-    private ItemOnClickListener itemOnClickListener;
-    private ItemOnSwipeListener itemOnSwipeListener;
+    private ItemTouchHelperAdapterListener historyLocationTouchListener;
 
     public HistoryAdapter(Context context,
                           List<? extends Location> itens,
-                          ItemOnClickListener itemOnClickListener,
-                          ItemOnSwipeListener itemOnSwipeListener) {
+                          ItemTouchHelperAdapterListener historyLocationTouchListener) {
         this.context = context;
         this.itens = (List<Location>) itens;
-
-        // Caller fragment listener for adapter's events
-        this.itemOnClickListener = itemOnClickListener;
-        this.itemOnSwipeListener = itemOnSwipeListener;
+        this.historyLocationTouchListener = historyLocationTouchListener;
     }
 
     @Override
@@ -49,7 +46,8 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
     @Override
     public HistoryViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.adapter_history, viewGroup, false);
-        HistoryViewHolder holder = new HistoryViewHolder(view);
+        HistoryLocationSwipeTouchListener historyLocationSwipeTouchListener = new HistoryLocationSwipeTouchListener(context, historyLocationTouchListener);
+        HistoryViewHolder holder = new HistoryViewHolder(view, historyLocationSwipeTouchListener);
         return holder;
     }
 
@@ -57,7 +55,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
     public void onBindViewHolder(final HistoryViewHolder holder, final int position) {
         Location location = itens.get(position);
 
-        if(location != null && holder != null) {
+        if (location != null && holder != null) {
             // TODO: set a better title
             Bitmap snapshot = location.getSnapshot() != null ? location.getSnapshot() : null;
             String title = location.getId() != null ? "Location #" + location.getId() : "";
@@ -66,47 +64,13 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
             String date = location.getDate() != null ? location.getDate().toString() : "";
 
             // Put values into respective views
-            if(snapshot != null) {
+            if (snapshot != null) {
                 holder.snapshotView.setImageBitmap(snapshot);
             }
             holder.titleView.setText(title);
             holder.latitudeView.setText(latitude);
             holder.longitudeView.setText(longitude);
             holder.dateView.setText(date);
-
-            // Set click listener, if caller fragment defined it
-            if (itemOnClickListener != null) {
-                holder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        itemOnClickListener.onClickItem(holder.itemView, position);
-                    }
-                });
-            }
-
-            // Set long click listener, if caller fragment defined it
-            if (itemOnSwipeListener != null) {
-                holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
-                    @Override
-                    public boolean onLongClick(View view) {
-                        view.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
-                        return true;
-                    }
-                });
-            }
-
-            // Set swipe listener, if caller fragment defined it
-            if (itemOnSwipeListener != null) {
-                holder.itemView.setOnTouchListener(new View.OnTouchListener() {
-                    @Override
-                    public boolean onTouch(View viewHolder, MotionEvent event) {
-                        if(MotionEventCompat.getActionMasked(event) == MotionEvent.ACTION_DOWN) {
-                            itemOnSwipeListener.onSwipeItem(holder.itemView, position);
-                        }
-                        return false;
-                    }
-                });
-            }
         }
     }
 
@@ -118,14 +82,12 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
         this.itens = itens;
     }
 
-    @Override
-    public boolean onItemMove(int i, int i1) {
-        return false;
+    public Context getContext() {
+        return this.context;
     }
 
-    @Override
-    public void onItemDismiss(int i) {
-
+    public ItemTouchHelperAdapterListener getHistoryLocationTouchListener() {
+        return this.historyLocationTouchListener;
     }
 
     static class HistoryViewHolder extends RecyclerView.ViewHolder {
@@ -136,7 +98,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
         TextView dateView;
         CardView cardView;
 
-        HistoryViewHolder(View view) {
+        HistoryViewHolder(View view, OnSwipeTouchListener onSwipeTouchListener) {
             super(view);
             snapshotView = (ImageView) view.findViewById(R.id.adapter_history_snapshot);
             titleView = (TextView) view.findViewById(R.id.adapter_history_title);
@@ -144,19 +106,64 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
             longitudeView = (TextView) view.findViewById(R.id.adapter_history_longitude);
             dateView = (TextView) view.findViewById(R.id.adapter_history_date);
             cardView = (CardView) view.findViewById(R.id.card_history);
+            view.setSelected(false);
+
+            onSwipeTouchListener.setViewHolder(this);
+            onSwipeTouchListener.setView(itemView);
+            view.setOnTouchListener(onSwipeTouchListener);
+
+/*
+            // Set long click listener, if caller fragment defined it
+            itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View view) {
+                    if(view.isSelected()) {
+                        view.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.white));
+                        view.setSelected(false);
+                    } else {
+                        view.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorAccent));
+                        view.setSelected(true);
+                    }
+                    return true;
+                }
+            });
+
+            // Set swipe listener, if caller fragment defined it
+            itemView.setOnTouchListener(new View.OnTouchListener() {
+                private boolean isOnClick;
+
+                @Override
+                public boolean onTouch(View view, MotionEvent event) {
+                    switch (event.getAction() & MotionEvent.ACTION_MASK) {
+                        case MotionEvent.ACTION_DOWN:
+                            isOnClick = true;
+                            break;
+                        case MotionEvent.ACTION_CANCEL:
+                        case MotionEvent.ACTION_UP:
+                            if(isOnClick) {
+                                // Didn't move, just clicked
+
+                                if(!view.isSelected()) {
+                                    historyLocationTouchListener.onClickItem(view.getContext(), itemView, getLayoutPosition());
+                                } else {
+                                    // If view is selected then it was long clicked.
+                                    // Do nothing. Let long click listener handle.
+                                }
+                            } else {
+
+                            }
+                            break;
+                        case MotionEvent.ACTION_MOVE:
+                            isOnClick = false;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    return false;
+                }
+            });*/
         }
-    }
-
-    public interface ItemOnClickListener {
-        void onClickItem(View view, int idx);
-    }
-
-    public interface ItemOnSwipeListener {
-        void onSwipeItem(View view, int idx);
-    }
-
-    public interface ItemOnLongClickedListener {
-        void onLongClickItem(View view, int idx);
     }
 }
 

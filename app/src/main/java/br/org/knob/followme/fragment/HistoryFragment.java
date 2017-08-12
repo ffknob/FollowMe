@@ -16,10 +16,10 @@ import java.util.List;
 import br.org.knob.android.framework.fragment.BaseFragment;
 import br.org.knob.android.framework.model.Location;
 import br.org.knob.android.framework.service.LocationService;
-import br.org.knob.android.framework.util.Util;
+import br.org.knob.android.framework.ui.ItemTouchHelperAdapterListener;
 import br.org.knob.followme.R;
 import br.org.knob.followme.adapter.HistoryAdapter;
-import br.org.knob.followme.adapter.helper.HistoryAdapterItemTouchHelperCallback;
+import br.org.knob.followme.adapter.HistoryLocationAdapterTouchCallback;
 
 
 public class HistoryFragment extends BaseFragment {
@@ -29,12 +29,10 @@ public class HistoryFragment extends BaseFragment {
     private HistoryAdapter historyAdapter;
     private List<? extends Location> locations;
 
-    private HistoryAdapterItemTouchHelperCallback itemTouchHelperCallback;
+    private HistoryLocationAdapterTouchCallback itemTouchHelperCallback;
     private ItemTouchHelper itemTouchHelper;
 
-    private OnItemSelectedListener itemSelectedListener;
-    private OnItemSwipedListener itemSwipedListener;
-    private OnItemLongClickedListener itemLongClickedListener;
+    private OnHistoryLocationListener onHistoryLocationListener;
 
     public HistoryFragment() {
     }
@@ -49,34 +47,17 @@ public class HistoryFragment extends BaseFragment {
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        if (context instanceof OnItemSelectedListener) {
-            itemSelectedListener = (OnItemSelectedListener) context;
+        if (context instanceof OnHistoryLocationListener) {
+            this.onHistoryLocationListener = (OnHistoryLocationListener) context;
         } else {
             throw new ClassCastException(context.toString()
-                    + " must implemenet HistoryFragment.OnItemSelectedListener");
-        }
-
-        if (context instanceof OnItemSwipedListener) {
-            itemSwipedListener = (OnItemSwipedListener) context;
-        } else {
-            throw new ClassCastException(context.toString()
-                    + " must implemenet HistoryFragment.OnItemSwipedListener");
-        }
-
-        if (context instanceof OnItemLongClickedListener) {
-            itemLongClickedListener = (OnItemLongClickedListener) context;
-        } else {
-            throw new ClassCastException(context.toString()
-                    + " must implemenet HistoryFragment.OnItemSLongClickListener");
+                    + " must implement HistoryFragment.OnHistoryLocationListener");
         }
     }
 
     @Override
     public void onDetach() {
         super.onDetach();
-        itemSelectedListener = null;
-        itemSwipedListener = null;
-        itemLongClickedListener = null;
     }
 
     @Override
@@ -106,10 +87,10 @@ public class HistoryFragment extends BaseFragment {
         LocationService locationService = new LocationService(getContext());
         locations = locationService.findAllOrderedByDate();
 
-        historyAdapter = new HistoryAdapter(getContext(), locations, onClickItem(), onSwipeItem());
+        historyAdapter = new HistoryAdapter(getContext(), locations, ((OnHistoryLocationListener)getActivity()).onHistoryLocationListener());
         recyclerView.setAdapter(historyAdapter);
 
-        itemTouchHelperCallback = new HistoryAdapterItemTouchHelperCallback(historyAdapter);
+        itemTouchHelperCallback = new HistoryLocationAdapterTouchCallback(historyAdapter);
         itemTouchHelper = new ItemTouchHelper(itemTouchHelperCallback);
         itemTouchHelper.attachToRecyclerView(recyclerView);
     }
@@ -119,55 +100,8 @@ public class HistoryFragment extends BaseFragment {
         super.onSaveInstanceState(outState);
     }
 
-    private HistoryAdapter.ItemOnClickListener onClickItem() {
-        return new HistoryAdapter.ItemOnClickListener() {
-            @Override
-            public void onClickItem(View view, int idx) {
-                if (locations != null) {
-                    Location location = locations.get(idx);
-
-                    itemSelectedListener.onHistoryLocationSelected(location);
-                }
-            }
-        };
-    }
-
-    private HistoryAdapter.ItemOnSwipeListener onSwipeItem() {
-        return new HistoryAdapter.ItemOnSwipeListener() {
-            @Override
-            public void onSwipeItem(View view, int idx) {
-                if (locations != null) {
-                    Location location = locations.get(idx);
-
-                    itemSwipedListener.onHistoryLocationSwiped(location, historyAdapter, idx);
-                }
-            }
-        };
-    }
-
-    private HistoryAdapter.ItemOnLongClickedListener onLongClickItem() {
-        return new HistoryAdapter.ItemOnLongClickedListener() {
-            @Override
-            public void onLongClickItem(View view, int idx) {
-                if (locations != null) {
-                    Location location = locations.get(idx);
-
-                    itemLongClickedListener.onHistoryLocationLongClicked(location, historyAdapter, idx, view);
-                }
-            }
-        };
-    }
-
     // Caller Activity must implement these interfaces
-    public interface OnItemSelectedListener {
-        void onHistoryLocationSelected(Location location);
-    }
-
-    public interface OnItemSwipedListener {
-        void onHistoryLocationSwiped(Location location, HistoryAdapter historyAdapter, int idx);
-    }
-
-    public interface OnItemLongClickedListener {
-        void onHistoryLocationLongClicked(Location location, HistoryAdapter historyAdapter, int idx, View view);
+    public interface OnHistoryLocationListener {
+        ItemTouchHelperAdapterListener onHistoryLocationListener();
     }
 }

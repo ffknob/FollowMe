@@ -1,5 +1,6 @@
 package br.org.knob.followme.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,9 +21,9 @@ import br.org.knob.android.framework.model.Location;
 import br.org.knob.android.framework.service.LocationService;
 import br.org.knob.android.framework.service.MapService;
 import br.org.knob.android.framework.service.SettingsService;
+import br.org.knob.android.framework.ui.ItemTouchHelperAdapterListener;
 import br.org.knob.android.framework.util.Util;
 import br.org.knob.followme.R;
-import br.org.knob.followme.adapter.HistoryAdapter;
 import br.org.knob.followme.adapter.SettingsAdapter;
 import br.org.knob.followme.fragment.HistoryFragment;
 import br.org.knob.followme.fragment.MapFragment;
@@ -32,13 +33,13 @@ import br.org.knob.followme.settings.Settings;
 public class MainActivity
         extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener,
-                    HistoryFragment.OnItemSelectedListener,
-                    HistoryFragment.OnItemSwipedListener,
-                    HistoryFragment.OnItemLongClickedListener {
+                    HistoryFragment.OnHistoryLocationListener{
     private static final String TAG = "MainActivity";
 
     private LocationService locationService;
     private MapService mapService;
+
+    private ItemTouchHelperAdapterListener historyLocationTouchListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -207,9 +208,62 @@ public class MainActivity
     public void onWindowFocusChanged(boolean hasFocus) {
         super.onWindowFocusChanged(hasFocus);
 
-        if(hasFocus) {
+        if (hasFocus) {
             toggleHideyBar();
         }
+    }
+
+    @Override
+    public ItemTouchHelperAdapterListener onHistoryLocationListener() {
+        return new ItemTouchHelperAdapterListener() {
+            // Implements methods from touch interface
+            @Override
+            public void onClickItem(Context context, View view, int position) {
+                Location location = locationService.findById(new Long(position));
+
+                Util.toast(context, "Selected location #" + location.getId());
+
+                // Map fragment
+                MapFragment mapFragment = new MapFragment();
+                Bundle fragmentBundle = new Bundle();
+                fragmentBundle.putSerializable(MapFragment.LOCATION_KEY, location);
+                mapFragment.setArguments(fragmentBundle);
+
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, mapFragment).commit();
+            }
+
+            @Override
+            public void onLongClickItem(Context context, View view, int position) {
+                Location location = locationService.findById(new Long(position));
+
+                Util.toast(context, "Long clicked location #" + location.getId());
+
+                view.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
+            }
+
+            @Override
+            public void onSwipeItem(Context context, View view, int position) {
+                Location location = locationService.findById(new Long(position));
+
+                if(location != null) {
+                    Util.toast(context, "Swiped location #" + location.getId());
+
+                    //historyAdapter.getItens().remove(idx);
+                    //historyAdapter.notifyItemRemoved(idx);
+                }
+            }
+
+            @Override
+            public void onDismissItem(Context context, View view, int position) {
+
+            }
+
+            @Override
+            public boolean onMoveItem(Context context, View view, int fromPosition, int toPosition) {
+                return false;
+            }
+        };
     }
 
     // https://developer.android.com/samples/ImmersiveMode/src/com.example.android.immersivemode/ImmersiveModeFragment.html#l75
@@ -235,31 +289,5 @@ public class MainActivity
 
         getWindow().getDecorView().setSystemUiVisibility(newUiOptions);
     }
-
-    @Override
-    public void onHistoryLocationSelected(Location location) {
-        Util.toast(this,"Selected location #" + location.getId());
-
-        // Map fragment
-        MapFragment mapFragment = new MapFragment();
-        Bundle fragmentBundle = new Bundle();
-        fragmentBundle.putSerializable(MapFragment.LOCATION_KEY, location);
-        mapFragment.setArguments(fragmentBundle);
-
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.fragment_container, mapFragment).commit();
-    }
-
-    @Override
-    public void onHistoryLocationSwiped(Location location, HistoryAdapter historyAdapter, int idx) {
-        Util.toast(this,"Swiped location #" + location.getId());
-        historyAdapter.getItens().remove(idx);
-        historyAdapter.notifyItemRemoved(idx);
-    }
-
-    @Override
-    public void onHistoryLocationLongClicked(Location location, HistoryAdapter historyAdapter, int idx, View view) {
-        Util.toast(this,"Long clicked location #" + location.getId());
-        view.setBackgroundColor(ContextCompat.getColor(this, R.color.colorAccent));
-    }
 }
+

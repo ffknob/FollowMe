@@ -20,16 +20,13 @@ android {
 }
 
 repositories {
-    maven { url "file://C:/Desenvolvimento/repository" }
+    maven { url 'file://C:/Desenvolvimento/repository' }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile('br.org.knob.android:framework:0.0.1') {
-        exclude group: 'xpp3', module: 'xpp3'
-        exclude group: 'stax', module: 'stax-api'
-        exclude group: 'stax', module: 'stax'
-    }
+    compile project(':br.org.knob.android:framework')
+
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
