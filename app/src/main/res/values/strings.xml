@@ -26,6 +26,11 @@
     <string name="followme_settings_clean_history_dialog">All your location history will be deleted. Confirm?</string>
     <string name="get_location_interval_seekbar_units">min</string>
 
+    <!-- Permissions -->
+    <string name="permissions">Permission</string>
+    <string name="permission_location_title">Permission</string>
+    <string name="permission_location_message">Permission</string>
+
     <!-- Action bar actions -->
     <string name="find">Find</string>
     <string name="refresh">Refresh</string>
@@ -33,6 +38,8 @@
     <!-- General strings -->
     <string name="confirm">Confirm</string>
     <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="deny">Deny</string>
 
     <!-- Error messsages -->
 

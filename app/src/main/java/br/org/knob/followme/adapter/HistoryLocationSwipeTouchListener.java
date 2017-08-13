@@ -15,15 +15,17 @@ public class HistoryLocationSwipeTouchListener extends OnSwipeTouchListener {
         super(context, itemTouchHelperAdapterListener);
     }
 
-    public HistoryLocationSwipeTouchListener(Context context, RecyclerView.ViewHolder viewHolder, ItemTouchHelperAdapterListener itemTouchHelperAdapterListener) {
-        super(context, viewHolder, itemTouchHelperAdapterListener);
+    public HistoryLocationSwipeTouchListener(Context context, RecyclerView.ViewHolder viewHolder,
+                                             ItemTouchHelperAdapterListener itemTouchHelperAdapterListener,
+                                             Long id) {
+        super(context, viewHolder, itemTouchHelperAdapterListener, id);
     }
 
     @Override
     public void onClick() {
         super.onClick();
 
-        getItemTouchHelperAdapterListener().onClickItem(getContext(), getView(), getViewHolder().getLayoutPosition());
+        getItemTouchHelperAdapterListener().onClickItem(getContext(), getView(), getViewHolder().getAdapterPosition(), getId());
     }
 
     @Override
@@ -45,7 +47,7 @@ public class HistoryLocationSwipeTouchListener extends OnSwipeTouchListener {
     public void onSwipeLeft() {
         super.onSwipeLeft();
         if(getViewHolder() != null && getView() != null) {
-            getItemTouchHelperAdapterListener().onSwipeItem(getView().getContext(), getView(), getViewHolder().getLayoutPosition());
+            getItemTouchHelperAdapterListener().onSwipeItem(getView().getContext(), getView(), getViewHolder().getAdapterPosition(), getId());
         }
     }
 

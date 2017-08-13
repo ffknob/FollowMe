@@ -46,7 +46,8 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
     @Override
     public HistoryViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.adapter_history, viewGroup, false);
-        HistoryLocationSwipeTouchListener historyLocationSwipeTouchListener = new HistoryLocationSwipeTouchListener(context, historyLocationTouchListener);
+        HistoryLocationSwipeTouchListener historyLocationSwipeTouchListener =
+                new HistoryLocationSwipeTouchListener(context, historyLocationTouchListener);
         HistoryViewHolder holder = new HistoryViewHolder(view, historyLocationSwipeTouchListener);
         return holder;
     }
@@ -71,7 +72,21 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
             holder.latitudeView.setText(latitude);
             holder.longitudeView.setText(longitude);
             holder.dateView.setText(date);
+
+            // Sets dataset item id
+            holder.setId(location.getId());
         }
+    }
+
+    @Override
+    public long getItemId(int position) {
+        Location location = itens.get(position);
+
+        if (location != null) {
+            return location.getId();
+        }
+
+        return RecyclerView.NO_ID;
     }
 
     public List<? extends Location> getItens() {
@@ -98,6 +113,8 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
         TextView dateView;
         CardView cardView;
 
+        OnSwipeTouchListener onSwipeTouchListener;
+
         HistoryViewHolder(View view, OnSwipeTouchListener onSwipeTouchListener) {
             super(view);
             snapshotView = (ImageView) view.findViewById(R.id.adapter_history_snapshot);
@@ -108,62 +125,17 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
             cardView = (CardView) view.findViewById(R.id.card_history);
             view.setSelected(false);
 
+            this.onSwipeTouchListener = onSwipeTouchListener;
             onSwipeTouchListener.setViewHolder(this);
             onSwipeTouchListener.setView(itemView);
             view.setOnTouchListener(onSwipeTouchListener);
-
-/*
-            // Set long click listener, if caller fragment defined it
-            itemView.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View view) {
-                    if(view.isSelected()) {
-                        view.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.white));
-                        view.setSelected(false);
-                    } else {
-                        view.setBackgroundColor(ContextCompat.getColor(view.getContext(), R.color.colorAccent));
-                        view.setSelected(true);
-                    }
-                    return true;
-                }
-            });
-
-            // Set swipe listener, if caller fragment defined it
-            itemView.setOnTouchListener(new View.OnTouchListener() {
-                private boolean isOnClick;
-
-                @Override
-                public boolean onTouch(View view, MotionEvent event) {
-                    switch (event.getAction() & MotionEvent.ACTION_MASK) {
-                        case MotionEvent.ACTION_DOWN:
-                            isOnClick = true;
-                            break;
-                        case MotionEvent.ACTION_CANCEL:
-                        case MotionEvent.ACTION_UP:
-                            if(isOnClick) {
-                                // Didn't move, just clicked
-
-                                if(!view.isSelected()) {
-                                    historyLocationTouchListener.onClickItem(view.getContext(), itemView, getLayoutPosition());
-                                } else {
-                                    // If view is selected then it was long clicked.
-                                    // Do nothing. Let long click listener handle.
-                                }
-                            } else {
-
-                            }
-                            break;
-                        case MotionEvent.ACTION_MOVE:
-                            isOnClick = false;
-                            break;
-                        default:
-                            break;
-                    }
-
-                    return false;
-                }
-            });*/
         }
+
+        public void setId(Long id) {
+            onSwipeTouchListener.setId(id);
+        }
+
+        public Long getId() { return onSwipeTouchListener.getId();}
     }
 }
 

@@ -54,13 +54,13 @@ public class HistoryLocationAdapterTouchCallback extends Callback {
         }
 
         this.historyAdapter.getHistoryLocationTouchListener()
-                .onMoveItem(historyAdapter.getContext(), source.itemView, source.getAdapterPosition(), target.getAdapterPosition());
+                .onMoveItem(historyAdapter.getContext(), source.itemView, source.getAdapterPosition(), target.getAdapterPosition(), source.getItemId());
         return true;
     }
 
     @Override
     public void onSwiped(RecyclerView.ViewHolder viewHolder, int i) {
         this.historyAdapter.getHistoryLocationTouchListener()
-                .onDismissItem(historyAdapter.getContext(), viewHolder.itemView, viewHolder.getAdapterPosition());
+                .onDismissItem(historyAdapter.getContext(), viewHolder.itemView, viewHolder.getAdapterPosition(), viewHolder.getItemId());
     }
 }

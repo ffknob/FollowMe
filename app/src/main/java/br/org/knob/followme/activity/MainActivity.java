@@ -1,10 +1,15 @@
 package br.org.knob.followme.activity;
 
+import android.Manifest;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
@@ -34,7 +39,10 @@ public class MainActivity
         extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener,
                     HistoryFragment.OnHistoryLocationListener{
+
     private static final String TAG = "MainActivity";
+
+    private static final int FOLLOWME_PERMISSION_REQUEST_LOCATION = 1;
 
     private LocationService locationService;
     private MapService mapService;
@@ -111,6 +119,9 @@ public class MainActivity
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.fragment_container, mapFragment).commit();
         }
+
+        // Check needed permissions
+        checkLocationPermission();
     }
 
     @Override
@@ -214,37 +225,60 @@ public class MainActivity
     }
 
     @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case FOLLOWME_PERMISSION_REQUEST_LOCATION: {
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // Permission granted
+
+                } else {
+                    // Permission denied
+
+                }
+
+                return;
+            }
+        }
+    }
+
+    @Override
     public ItemTouchHelperAdapterListener onHistoryLocationListener() {
         return new ItemTouchHelperAdapterListener() {
             // Implements methods from touch interface
             @Override
-            public void onClickItem(Context context, View view, int position) {
-                Location location = locationService.findById(new Long(position));
+            public void onClickItem(Context context, View view, int position, Long id) {
+                Location location = locationService.findById(id);
 
-                Util.toast(context, "Selected location #" + location.getId());
+                if(location != null) {
+                    Util.toast(context, "Selected location #" + location.getId());
 
-                // Map fragment
-                MapFragment mapFragment = new MapFragment();
-                Bundle fragmentBundle = new Bundle();
-                fragmentBundle.putSerializable(MapFragment.LOCATION_KEY, location);
-                mapFragment.setArguments(fragmentBundle);
+                    // Map fragment
+                    MapFragment mapFragment = new MapFragment();
+                    Bundle fragmentBundle = new Bundle();
+                    fragmentBundle.putSerializable(MapFragment.LOCATION_KEY, location);
+                    mapFragment.setArguments(fragmentBundle);
 
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_container, mapFragment).commit();
+                    getSupportFragmentManager().beginTransaction()
+                            .replace(R.id.fragment_container, mapFragment).commit();
+                }
             }
 
             @Override
-            public void onLongClickItem(Context context, View view, int position) {
-                Location location = locationService.findById(new Long(position));
+            public void onLongClickItem(Context context, View view, int position, Long id) {
+                Location location = locationService.findById(id);
 
-                Util.toast(context, "Long clicked location #" + location.getId());
+                if(location != null) {
+                    Util.toast(context, "Long clicked location #" + location.getId());
 
-                view.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
+                    view.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
+                }
             }
 
             @Override
-            public void onSwipeItem(Context context, View view, int position) {
-                Location location = locationService.findById(new Long(position));
+            public void onSwipeItem(Context context, View view, int position, Long id) {
+                Location location = locationService.findById(id);
 
                 if(location != null) {
                     Util.toast(context, "Swiped location #" + location.getId());
@@ -255,17 +289,52 @@ public class MainActivity
             }
 
             @Override
-            public void onDismissItem(Context context, View view, int position) {
+            public void onDismissItem(Context context, View view, int position, Long id) {
 
             }
 
             @Override
-            public boolean onMoveItem(Context context, View view, int fromPosition, int toPosition) {
+            public boolean onMoveItem(Context context, View view, int fromPosition, int toPosition, Long id) {
                 return false;
             }
         };
     }
 
+    public boolean checkLocationPermission() {
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    Manifest.permission. ACCESS_FINE_LOCATION)) {
+
+                // No location permission granted, ask for it
+                new AlertDialog.Builder(this)
+                        .setTitle(R.string.permission_location_title)
+                        .setMessage(R.string.permission_location_message)
+                        .setPositiveButton(R.string.accept, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                //Prompt the user once explanation has been shown
+                                ActivityCompat.requestPermissions(MainActivity.this,
+                                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                                        FOLLOWME_PERMISSION_REQUEST_LOCATION);
+                            }
+                        })
+                        .create()
+                        .show();
+
+
+            } else {
+                // No explanation needed, we can request the permission.
+                ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission. ACCESS_FINE_LOCATION},
+                        FOLLOWME_PERMISSION_REQUEST_LOCATION);
+            }
+            return false;
+        } else {
+            return true;
+        }
+    }
     // https://developer.android.com/samples/ImmersiveMode/src/com.example.android.immersivemode/ImmersiveModeFragment.html#l75
     public void toggleHideyBar() {
         int uiOptions = getWindow().getDecorView().getSystemUiVisibility();
